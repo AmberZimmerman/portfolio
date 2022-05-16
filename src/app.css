@@ -1,0 +1,358 @@
+* {
+  font-family: "Raleway", sans-serif;
+}
+
+.hero {
+  display: flex;
+  position: relative;
+}
+
+.left-hero {
+  background-color: black;
+  flex: 1 0 30%;
+}
+
+h1 {
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  margin: 0 7;
+  font-family: "Raleway", sans-serif;
+}
+
+.overlappy-text {
+  position: absolute;
+  top: 230px;
+  left: 200px;
+}
+
+.my-name-is {
+  color: white;
+  font-size: 30px;
+  font-weight: 600;
+  height: fit-content;
+}
+
+.amber-zimmerman {
+  color: white;
+  font-size: 45px;
+  font-weight: bold;
+}
+
+.highlight {
+  color: black;
+  font-size: 20px;
+  padding: 10px;
+  background-color: rgb(250, 165, 37);
+  height: fit-content;
+  width: fit-content;
+}
+
+.right-hero {
+  background-color: rgb(5, 51, 53);
+  flex: 1 0 70%;
+  height: auto;
+  width: 100%;
+  flex-flow: column;
+}
+
+.photo-of-self {
+  display: block;
+  height: auto;
+  width: 100%;
+}
+
+nav {
+  text-align: center;
+}
+
+nav ul li {
+  display: inline-block;
+  font-size: 20px;
+  justify-content: space-evenly;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  padding: 7px;
+  font-weight: 600;
+}
+
+.about {
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 500px;
+}
+
+.left-about {
+  flex: 1 0 45%;
+  position: relative;
+  background-color: white;
+}
+
+.small-photo-about {
+  display: block;
+  height: 400px;
+  width: auto;
+  object-fit: cover;
+  box-sizing: border-box;
+  position: absolute;
+  top: 53%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+  box-shadow: -30px -30px rgb(5, 51, 53);
+}
+
+.right-about {
+  flex: 1 0 55%;
+}
+
+.about-header {
+  display: block;
+  padding: 40px 0 0 0;
+  width: 50%;
+  text-align: end;
+}
+
+.about-header-lowercase {
+  font-size: 25px;
+  padding: 0;
+  box-shadow: 150px 60px orange;
+}
+
+.about-header-uppercase {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.about-bio {
+  display: block;
+  padding: 0 50px;
+  font-size: 18px;
+}
+
+/* a red arrow shows up if I don't add the works class? */
+.works {
+  display: block;
+}
+
+.works-header {
+  text-align: center;
+  padding: 50px 0px 20px 0;
+  background-color: cadetblue;
+  color: white;
+}
+
+.works-header-uppercase {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.works-header-lowercase {
+  font-size: 25px;
+  padding: 0;
+}
+
+/* Main styling is for mobile viewing */
+.works-portfolio {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas:
+    "long-card long-card"
+    "works-card2 works-card2"
+    "works-card3 works-card3"
+    "works-card4 works-card4"
+    "works-card5 works-card5";
+  background-color: cadetblue;
+}
+
+.long-card {
+  grid-area: long-card;
+  height: auto;
+  position: relative;
+  padding: 0;
+}
+
+.works-card2 {
+  grid-area: works-card2;
+  height: auto;
+  position: relative;
+  padding: 0;
+}
+
+.works-card3 {
+  grid-area: works-card3;
+  height: auto;
+  position: relative;
+  padding: 0;
+}
+
+.works-card4 {
+  grid-area: works-card4;
+  height: auto;
+  position: relative;
+  padding: 0;
+}
+
+.works-card5 {
+  grid-area: works-card5;
+  height: auto;
+  position: relative;
+  padding: 0;
+}
+
+.works-title {
+  background-color: rgb(250, 165, 37);
+  font-size: 20px;
+  text-align: center;
+  padding: 10px;
+  position: absolute;
+  height: fit-content;
+  width: fit-content;
+  left: 10px;
+  right: 0;
+  bottom: 20px;
+}
+
+.long-img {
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
+  display: block;
+  box-sizing: border-box;
+  padding: 0px 5px;
+}
+
+.portfolio-img {
+  max-height: 150px;
+  width: 100%;
+  object-fit: cover;
+  display: block;
+  box-sizing: border-box;
+  padding: 10px 5px 0px 5px;
+}
+
+/* .resume {
+      background-color: orange;
+  } */
+
+.resume-header {
+  background-color: rgb(250, 165, 37);
+}
+
+.contact {
+  display: flex;
+  flex-flow: wrap;
+}
+
+.contact-left {
+  background-color: black;
+  flex: 1 0 30%;
+  height: fit-content;
+  font-size: bold;
+}
+
+.contact-header {
+  padding: 20px 5px;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+}
+
+.contact-right {
+  flex: 1 0 70%;
+}
+
+.contact-links {
+  background-color: rgb(5, 51, 53);
+  height: auto;
+  width: 100%;
+}
+
+nav {
+  text-align: center;
+}
+
+nav ul li {
+  display: inline-block;
+  font-size: 20px;
+  padding: 10px 5px;
+  justify-content: space-evenly;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  padding: 7px;
+  font-weight: 600;
+}
+
+/* This is for desktop viewing */
+@media screen and (min-width: 900px) {
+  .works-portfolio {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+      "long-card long-card"
+      "works-card2 works-card3"
+      "works-card4 works-card5";
+    padding: 20px 150px;
+  }
+}
+
+/* This is for smaller screen viewing */
+@media screen and (max-width: 1155px) {
+  .overlappy-text {
+    position: static;
+    padding: 5px;
+    text-align: center;
+    align-content: center;
+  }
+
+  .hero {
+    display: flex;
+    position: relative;
+    flex-flow: column wrap;
+  }
+
+  .highlight {
+    display: inline-block;
+  }
+
+  #contact {
+    display: flex;
+    position: relative;
+    flex-flow: column wrap;
+  }
+}
+
+@media screen and (max-width: 900) {
+  .about {
+    display: flex;
+    position: relative;
+    flex-flow: column wrap;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .left-about {
+    display: none;
+    flex: 1 0 45%;
+    background-color: white;
+  }
+
+  .small-photo-about {
+    display: none;
+    width: auto;
+    object-fit: cover;
+    box-sizing: border-box;
+    top: 53%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    box-shadow: -30px -30px rgb(5, 51, 53);
+  }
+}

@@ -13,6 +13,7 @@ export default function Nav() {
     <nav style={navStyle}>
       <section
         style={{
+          textAlign: "center",
           display: "inline-block",
           fontSize: "20px",
           justifyContent: "space-evenly",
