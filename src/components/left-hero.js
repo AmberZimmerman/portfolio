@@ -8,7 +8,17 @@ export default function leftHero() {
 
   return (
     <div className="left-hero" style={leftHeroStyle}>
-      <h1>PORTFOLIO</h1>
+      <h1
+        style={{
+          fontSize: "30px",
+          color: "white",
+          textAlign: "center",
+          margin: "0 7",
+          fontFamily: "Raleway, sans-serif",
+        }}
+      >
+        PORTFOLIO
+      </h1>
       <div className="overlappy-text">
         <div className="my-name-is">MY NAME IS</div>
         <div className="amber-zimmerman">AMBER ZIMMERMAN</div>

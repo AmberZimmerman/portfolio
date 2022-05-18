@@ -1,7 +1,7 @@
 import React from "react";
 
 export default function Nav({ currentPage, handlePageChange }) {
-  const navStyle = { textAlign: "center" };
+  const navStyle = { textAlign: "center", margin: "15px" };
 
   const linkStyle = {
     textDecoration: "none",
@@ -22,21 +22,59 @@ export default function Nav({ currentPage, handlePageChange }) {
       >
         <ul>
           <li style={linkStyle}>
-            <a href="#home" onClick={() => handlePageChange("HOME")}>
+            <a
+              href="#home"
+              onClick={() => handlePageChange("HOME")}
+              className={
+                currentPage === "HOME" ? "nav-link active" : "nav-link"
+              }
+            >
               HOME
             </a>
           </li>
           <li style={linkStyle}>
-            <a href="#about">ABOUT</a>
+            <a
+              href="#about"
+              onClick={() => handlePageChange("ABOUT")}
+              className={
+                currentPage === "ABOUT" ? "nav-link active" : "nav-link"
+              }
+            >
+              ABOUT
+            </a>
           </li>
           <li style={linkStyle}>
-            <a href="#works">WORKS</a>
+            <a
+              href="#works"
+              onClick={() => handlePageChange("WORKS")}
+              className={
+                currentPage === "WORKS" ? "nav-link active" : "nav-link"
+              }
+            >
+              WORKS
+            </a>
           </li>
           <li style={linkStyle}>
-            <a href="#contact">CONTACT</a>
+            <a
+              href="#contact"
+              onClick={() => handlePageChange("CONTACT")}
+              className={
+                currentPage === "CONTACT" ? "nav-link active" : "nav-link"
+              }
+            >
+              CONTACT
+            </a>
           </li>
           <li style={linkStyle}>
-            <a href="#resume">RESUME</a>
+            <a
+              href="#resume"
+              onClick={() => handlePageChange("RESUME")}
+              className={
+                currentPage === "RESUME" ? "nav-link active" : "nav-link"
+              }
+            >
+              RESUME
+            </a>
           </li>
         </ul>
       </section>
