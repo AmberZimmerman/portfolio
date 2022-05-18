@@ -1,0 +1,5 @@
+.worksGrid {
+  display: grid;
+  grid-template-columns: 1fr 20px 200px 20px 200px 20px 200px 20px;
+  grid-template-areas: "worksAbout . card1 . card2 . card3 .";
+}

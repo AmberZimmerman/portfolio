@@ -1,15 +1,6 @@
 import React from "react";
 
-export default function Nav({ currentPage, handlePageChange }) {
-  const navStyle = { textAlign: "center" };
-
-  const linkStyle = {
-    textDecoration: "none",
-    color: "white",
-    padding: "7px",
-    fontWeight: "600",
-    textTransform: "uppercase",
-  };
+export default function Works() {
   return (
     <nav style={navStyle}>
       <section
@@ -22,9 +13,7 @@ export default function Nav({ currentPage, handlePageChange }) {
       >
         <ul>
           <li style={linkStyle}>
-            <a href="#home" onClick={() => handlePageChange("HOME")}>
-              HOME
-            </a>
+            <a href="home">HOME</a>
           </li>
           <li style={linkStyle}>
             <a href="#about">ABOUT</a>

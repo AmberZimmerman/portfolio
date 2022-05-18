@@ -7,12 +7,12 @@ export default function leftHero() {
   };
 
   return (
-    <div class="left-hero" style={leftHeroStyle}>
+    <div className="left-hero" style={leftHeroStyle}>
       <h1>PORTFOLIO</h1>
-      <div class="overlappy-text">
-        <div class="my-name-is">MY NAME IS</div>
-        <div class="amber-zimmerman">AMBER ZIMMERMAN</div>
-        <div class="highlight">I'M A UX/UI DEVELOPER</div>
+      <div className="overlappy-text">
+        <div className="my-name-is">MY NAME IS</div>
+        <div className="amber-zimmerman">AMBER ZIMMERMAN</div>
+        <div className="highlight">I'M A UX/UI DEVELOPER</div>
       </div>
     </div>
   );

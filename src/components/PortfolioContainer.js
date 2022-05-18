@@ -15,6 +15,9 @@ export default function PortfolioContainer() {
     if (currentPage === "About") {
       return <About />;
     }
+    if (currentPage === "Works") {
+      return <Works />;
+    }
     if (currentPage === "Contact") {
       return <Contact />;
     }
@@ -25,6 +28,7 @@ export default function PortfolioContainer() {
   };
 
   const handlePageChange = (page) => setCurrentPage(page);
+  console.log(page);
 
   return (
     <div>
