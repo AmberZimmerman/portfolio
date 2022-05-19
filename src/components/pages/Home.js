@@ -7,10 +7,7 @@ export default function Home({ currentPage, handlePageChange }) {
   return (
     <div id="home" className="hero">
       <Lefthero />
-      <div className="right-hero">
-        <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
-        <Heroimage />
-      </div>
+      <Heroimage />
     </div>
   );
 }
