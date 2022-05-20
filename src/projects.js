@@ -90,4 +90,90 @@ const projects = [
         "https://drive.google.com/file/d/14HoVuqsNcQepHpJSzImUIlFpxoWSUZb6/view?usp=sharing",
     },
   },
+  {
+    project7: {
+      title: "Ecommerce Everything Pencils",
+      description:
+        "The is the backend component to a ecommerce site for an online retail store. It meets MVP criteria. An Express.js API was built to use Sequelize to interact with a MySQL database.",
+      technology: ["Javascript", "Express", "API", "Sequelize", "MySQL"],
+      image: "",
+      demogif: "",
+      github: "https://github.com/AmberZimmerman/ecommerce-everything-pencils",
+      deployed: "",
+      videolink:
+        "https://drive.google.com/drive/folders/1aPcGE6_DMf_JfofeDzrjpkjgzBzFul_Q?usp=sharing",
+    },
+  },
+  {
+    project8: {
+      title: "Just Another Text Editor",
+      description: "",
+      technology: ["Javascript", "Express", "API", "Sequelize", "MySQL"],
+      image: "",
+      demogif: "",
+      github: "",
+      deployed: "",
+      videolink: "",
+    },
+  },
+  {
+    project9: {
+      title: "Personal Readme Generator",
+      description: "",
+      technology: ["Javascript", "Express", "API", "Sequelize", "MySQL"],
+      image: "",
+      demogif: "",
+      github: "",
+      deployed: "",
+      videolink: "",
+    },
+  },
+  {
+    project10: {
+      title: "Fussy Flamingo",
+      description: "",
+      technology: ["Javascript", "Express", "API", "Sequelize", "MySQL"],
+      image: "",
+      demogif: "",
+      github: "",
+      deployed: "",
+      videolink: "",
+    },
+  },
+  {
+    project11: {
+      title: "Accretion",
+      description: "",
+      technology: ["Javascript", "Express", "API", "Sequelize", "MySQL"],
+      image: "",
+      demogif: "",
+      github: "",
+      deployed: "",
+      videolink: "",
+    },
+  },
+  {
+    project12: {
+      title: "MOONR8KER",
+      description: "",
+      technology: ["Javascript", "Express", "API", "Sequelize", "MySQL"],
+      image: "",
+      demogif: "",
+      github: "",
+      deployed: "",
+      videolink: "",
+    },
+  },
+  {
+    project13: {
+      title: "Final Project",
+      description: "",
+      technology: ["Javascript", "Express", "API", "Sequelize", "MySQL"],
+      image: "",
+      demogif: "",
+      github: "",
+      deployed: "",
+      videolink: "",
+    },
+  },
 ];
