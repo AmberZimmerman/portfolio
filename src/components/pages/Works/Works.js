@@ -39,6 +39,7 @@ export default function Works({ projects }) {
       <div>
         {projects.map((project) => (
           <div className="card" key={project.title}>
+            <img src={project.image} alt="project screenshot" />
             {`${project.title} ${project.description} ${project.technology}`}
           </div>
         ))}

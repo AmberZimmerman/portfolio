@@ -10,8 +10,7 @@ const projects = [
       "Inquirer",
       "Jest",
     ],
-    image: "yes",
-    demogif: "yes",
+    image: require("../src/project-screenshots/project-gifs/stacking-your-squad.gif"),
     github: "https://github.com/AmberZimmerman/stacking_your_squad",
     deployed: "",
     videolink:
