@@ -5,7 +5,7 @@ import About from "./pages/About";
 import Works from "./pages/Works/Works";
 import Contact from "./pages/Contact";
 import Resume from "./pages/Resume";
-import projects from "./projects";
+import projects from "../projects";
 
 export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState("HOME");

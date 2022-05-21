@@ -1,20 +1,20 @@
 import React from "react";
 
-export default function Works() {
-  const leftWorks = {
-    width: "32%",
-    backgroundColor: "yellow",
-  };
+export default function Works({ projects }) {
+  // const leftWorks = {
+  //   width: "32%",
+  //   backgroundColor: "yellow",
+  // };
 
-  const rightWorks = {
-    width: "68%",
-    backgroundColor: "red",
-  };
+  // const rightWorks = {
+  //   width: "68%",
+  //   backgroundColor: "red",
+  // };
 
-  const worksGrid = {
-    display: "grid",
-    gridTemplateColumns: "10px 33% 10px 33% 10px 33% 10px",
-  };
+  // const worksGrid = {
+  //   display: "grid",
+  //   gridTemplateColumns: "10px 33% 10px 33% 10px 33% 10px",
+  // };
 
   return (
     // <section style={{ height: "800px", display: "flex" }}>
@@ -27,13 +27,22 @@ export default function Works() {
     //     </div>
     //   </div>
     // </section>
+    <div>
+      <section className="container">
+        <aside>
+          <h2>THIS IS ALL MY PROJECTS!</h2>
+          <p>blah blah blah here are my projects</p>
+        </aside>
+        <div className="card"></div>
+      </section>
 
-    <section className="container">
-      <aside>
-        <h2>THIS IS ALL MY PROJECTS!</h2>
-        <p>blah blah blah here are my projects</p>
-      </aside>
-      <div className="card"></div>
-    </section>
+      <div>
+        {projects.map((project) => (
+          <li className="list-group-item" key={project.title}>
+            {`${project.title} ${project.description} ${project.technology}`}
+          </li>
+        ))}
+      </div>
+    </div>
   );
 }
