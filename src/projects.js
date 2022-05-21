@@ -21,7 +21,7 @@ const projects = [
     description:
       "User can generate their own secure password by choosing specific criteria based on given options. ",
     technology: ["Javascript", "HTML/CSS"],
-    image: "yes",
+    image: require("../src/project-screenshots/generated-password-ss1.png"),
     demogif: "",
     github: "https://github.com/AmberZimmerman/secure-password-generator",
     deployed: "https://amberzimmerman.github.io/secure-password-generator/",

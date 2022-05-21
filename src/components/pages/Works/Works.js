@@ -30,7 +30,7 @@ export default function Works({ projects }) {
     <div>
       <section className="container">
         <aside>
-          <h2>THIS IS ALL MY PROJECTS!</h2>
+          <h2>THESE ARE ALL MY PROJECTS!</h2>
           <p>blah blah blah here are my projects</p>
         </aside>
         <div className="card"></div>
