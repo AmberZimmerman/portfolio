@@ -123,7 +123,7 @@ const projects = [
       technology: ["Javascript", "Express", "API", "Sequelize", "MySQL"],
       image: "",
       demogif: "",
-      github: "",
+      github: "https://github.com/AmberZimmerman/ambers_easy_readme_maker",
       deployed: "",
       videolink: "",
     },
@@ -131,12 +131,13 @@ const projects = [
   {
     project10: {
       title: "Fussy Flamingo",
-      description: "",
-      technology: ["Javascript", "Express", "API", "Sequelize", "MySQL"],
+      description:
+        "A silly little quiz about flamingos using vanilla javascript and html/css. Keeps track of scores and lets users save them in local storage.",
+      technology: ["Javascript", "HTML/CSS", "Local Storage"],
       image: "",
       demogif: "",
-      github: "",
-      deployed: "",
+      github: "https://github.com/AmberZimmerman/fussy-flamingos-timed-quiz",
+      deployed: "https://amberzimmerman.github.io/fussy-flamingos-timed-quiz/",
       videolink: "",
     },
   },
@@ -167,6 +168,42 @@ const projects = [
   {
     project13: {
       title: "Final Project",
+      description: "",
+      technology: ["Javascript", "Express", "API", "Sequelize", "MySQL"],
+      image: "",
+      demogif: "",
+      github: "",
+      deployed: "",
+      videolink: "",
+    },
+  },
+  {
+    project14: {
+      title: "Denver Harlequins Rugby?",
+      description: "",
+      technology: ["Javascript", "Express", "API", "Sequelize", "MySQL"],
+      image: "",
+      demogif: "",
+      github: "",
+      deployed: "",
+      videolink: "",
+    },
+  },
+  {
+    project15: {
+      title: "On Second Thought",
+      description: "",
+      technology: ["Javascript", "Express", "API", "Sequelize", "MySQL"],
+      image: "",
+      demogif: "",
+      github: "",
+      deployed: "",
+      videolink: "",
+    },
+  },
+  {
+    project16: {
+      title: "Regex Tutorial",
       description: "",
       technology: ["Javascript", "Express", "API", "Sequelize", "MySQL"],
       image: "",
