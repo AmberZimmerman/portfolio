@@ -38,9 +38,9 @@ export default function Works({ projects }) {
 
       <div>
         {projects.map((project) => (
-          <li className="list-group-item" key={project.title}>
+          <div className="card" key={project.title}>
             {`${project.title} ${project.description} ${project.technology}`}
-          </li>
+          </div>
         ))}
       </div>
     </div>
