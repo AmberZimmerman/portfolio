@@ -2,19 +2,21 @@ export default function Resume() {
   const resumeStyle = {
     background: "black",
     color: "white",
+    display: "flex",
+    justifyContent: "center",
   };
 
   const resumeContainer = {
-    width: "675px",
-    background: "red",
+    width: "690px",
+    // background: "red",
   };
 
   return (
     <section style={resumeStyle}>
-      <header>
-        <p>Blah blah blah my resume blah blah</p>
-      </header>
       <div style={resumeContainer}>
+        <header>
+          <p>Blah blah blah my resume blah blah</p>
+        </header>
         <div className="education-container">
           <div className="education">
             <h1>EDUCATION</h1>
@@ -39,23 +41,25 @@ export default function Resume() {
           <div className="skills-card">
             <h3>Front-End Code</h3>
             <p>
-              HTML/CSS / CSS-in-JS / JavaScript / Node.JS tooling / React / MVC
-              - Handlebars / Bootstrap / Materialize / PWA / Webpack / Workbox
+              HTML/CSS / JavaScript / React / MVC - Handlebars / CSS-in-JS /
+              Bootstrap / PWA / Webpack / Node.JS tooling / Materialize /
+              Workbox / JQuery / SEO /
             </p>
           </div>
           <div className="skills-card">
             <h3>Back-End Code</h3>
             <p>
-              Javascript / jQuery / NodeJS / MySQL / sequelize / JSON / OOP /
-              CRUD / RESTful web services / Express / MongoDB / Mongoose / MERN
-              stack/ GraphQL / APIs /
+              Javascript / NodeJS / MySQL / Sequelize / JSON / OOP / CRUD /
+              Express / MongoDB / Mongoose / MERN stack / RESTful web services /
+              GraphQL / APIs / Apollo /
             </p>
           </div>
           <div className="skills-card">
-            <h3>Softward & Other Tools</h3>
+            <h3>Software & Other Tools</h3>
             <p>
-              Adobe CC / Google Suite /Miro / Kanban / Heroku Insomnia / Postman
-              / Mongo DB Compass / Lighthouse / Apollo
+              Adobe CC / Google Suite / Canva / Miro / Kanban / Github / Heroku
+              / Insomnia / Postman / Lighthouse / Mongo DB Compass / Sketch /
+              Lucidchart / Microsoft Suite /
             </p>
           </div>
         </div>

@@ -149,6 +149,23 @@ a {
   font-size: 18px;
 }
 
+.skills-container {
+  display: flex;
+}
+
+.skills-card {
+  flex: 1 0 175px;
+  margin: 10px;
+}
+
+.skills-card p {
+  font-size: 0.85rem;
+}
+
+.skills-card:nth-of-type(2n) {
+  flex: 1 0 200px;
+}
+
 .experience-card {
   background: purple;
   margin: 20px;
@@ -156,6 +173,10 @@ a {
 
 .experience-card li {
   font-size: 0.95rem;
+}
+
+.experience-card ul {
+  margin: 0px 0px 1.4rem 1.4rem;
 }
 
 /* a red arrow shows up if I don't add the works class? */
