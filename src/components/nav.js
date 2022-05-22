@@ -1,12 +1,17 @@
 import React from "react";
 
 export default function Nav({ currentPage, handlePageChange }) {
-  const navStyle = { display: "flex", width: "100%" };
+  const navStyle = {
+    display: "flex",
+    width: "100%",
+    position: "fixed",
+    zIndex: "9",
+  };
 
   const linkStyle = {
     textDecoration: "none",
     color: "white",
-    padding: "7px",
+    padding: "10px",
     fontWeight: "600",
     textTransform: "uppercase",
     backgroundColor: "rgb(5, 51, 53)",
@@ -16,7 +21,7 @@ export default function Nav({ currentPage, handlePageChange }) {
   };
 
   return (
-    <div style={{ flexWrap: "wrap" }}>
+    <div style={{ flexWrap: "wrap", height: "50px" }}>
       <nav style={navStyle}>
         <section
           style={{
@@ -25,6 +30,7 @@ export default function Nav({ currentPage, handlePageChange }) {
             justifyContent: "space-evenly",
             width: "100%",
             display: "flex",
+            height: "50px",
           }}
         >
           <div
@@ -44,6 +50,7 @@ export default function Nav({ currentPage, handlePageChange }) {
                 textAlign: "center",
                 margin: "0px",
                 fontFamily: "Raleway, sans-serif",
+                alignSelf: "center",
               }}
             >
               PORTFOLIO

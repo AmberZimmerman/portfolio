@@ -34,9 +34,9 @@ export default function PortfolioContainer() {
   };
 
   return (
-    <div>
+    <section>
       <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
       {renderPage()}
-    </div>
+    </section>
   );
 }

@@ -4,6 +4,15 @@
   padding: 0;
 }
 
+/* .main-grid {
+  display: grid;
+  width: 100vw;
+  grid-template-areas:
+    "nav nav nav"
+    "aside content content"
+    "footer footer footer";
+} */
+
 .container {
   width: 100vw;
   margin: 0 auto;
@@ -13,6 +22,7 @@
 .hero {
   display: flex;
   position: relative;
+  height: 95vh;
 }
 
 /* .left-hero {
@@ -58,19 +68,19 @@ h1 {
   width: fit-content;
 }
 
-.right-hero {
+/* .right-hero {
   background-color: rgb(5, 51, 53);
   flex: 1 0 70%;
   height: auto;
   width: 100%;
   flex-flow: column;
-}
+} */
 
-.photo-of-self {
+/* .photo-of-self {
   display: block;
   height: auto;
   width: 100%;
-}
+} */
 
 /* nav {
   text-align: center;
@@ -80,14 +90,11 @@ nav ul li {
   display: inline-block;
   font-size: 20px;
   justify-content: space-evenly;
-}
+}*/
 
 a {
-  text-decoration: none;
-  color: white;
-  padding: 7px;
-  font-weight: 600;
-} */
+  align-self: center;
+}
 
 .about {
   display: flex;
@@ -140,6 +147,15 @@ a {
   display: block;
   padding: 0 50px;
   font-size: 18px;
+}
+
+.experience-card {
+  background: purple;
+  margin: 20px;
+}
+
+.experience-card li {
+  font-size: 0.95rem;
 }
 
 /* a red arrow shows up if I don't add the works class? */

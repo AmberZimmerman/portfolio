@@ -4,7 +4,6 @@ export default function leftHero() {
   const leftHeroStyle = {
     backgroundColor: "black",
     flex: "1 0 32%",
-    height: "100vh",
   };
 
   return (
