@@ -7,7 +7,7 @@ export default function Resume() {
   };
 
   const resumeContainer = {
-    width: "690px",
+    width: "750px",
     // background: "red",
   };
 
@@ -27,15 +27,6 @@ export default function Resume() {
             <p>Visual Arts and Emerging Media Management</p>
             <h3>University of Central Florida</h3>
           </div>
-          <div className="education">
-            <h1>SOFT SKILLS</h1>
-            <p>
-              Flexibility / Team First Mindset / Attention to detail / Quality
-              control / Consumer Psychology / Innovation / Time Management /
-              Organization Strong communication skills / Ability to target
-              specific client needs
-            </p>
-          </div>
         </div>
         <div className="skills-container">
           <div className="skills-card">
@@ -49,17 +40,17 @@ export default function Resume() {
           <div className="skills-card">
             <h3>Back-End Code</h3>
             <p>
-              Javascript / NodeJS / MySQL / Sequelize / JSON / OOP / CRUD /
-              Express / MongoDB / Mongoose / MERN stack / RESTful web services /
-              GraphQL / APIs / Apollo /
+              Javascript / NodeJS / MySQL / Sequelize / JSON / OOP / MongoDB /
+              Mongoose / MERN stack / RESTful web services / APIs / Express /
+              CRUD / GraphQL / Apollo /
             </p>
           </div>
           <div className="skills-card">
             <h3>Software & Other Tools</h3>
             <p>
-              Adobe CC / Google Suite / Canva / Miro / Kanban / Github / Heroku
-              / Insomnia / Postman / Lighthouse / Mongo DB Compass / Sketch /
-              Lucidchart / Microsoft Suite /
+              Adobe CC / Google Suite / Sketch / Miro / Kanban / Github / Heroku
+              / Insomnia / Postman / Lighthouse / Mongo DB Compass / Lucidchart
+              /
             </p>
           </div>
         </div>
@@ -192,6 +183,15 @@ export default function Resume() {
               </li>
             </ul>
           </div>
+        </div>
+        <div className="soft-skils">
+          <h1>SOFT SKILLS</h1>
+          <p>
+            Flexibility / Team First Mindset / Attention to detail / Quality
+            control / Consumer Psychology / Leadership / Innovation / Time
+            Management / Organization Strong communication skills / Ability to
+            target specific client needs
+          </p>
         </div>
       </div>
     </section>
