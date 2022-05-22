@@ -20,6 +20,12 @@ export default function Resume() {
       <div style={resumeContainer}>
         <header>
           <p>Blah blah blah my resume blah blah</p>
+          <a
+            href="/resume/amber_zimmerman_webdeveloper_resume_2022_simplified.pdf"
+            download
+          >
+            Download resume as PDF
+          </a>
         </header>
         <div className="education-container">
           <h1>EDUCATION</h1>
@@ -121,7 +127,7 @@ export default function Resume() {
           <div className="experience-card">
             <h2>MAR 2018-APRIL 2019</h2>
             <h3>Key Holder @ Bliss in Boulder, CO</h3>
-            <h4>(Gift Store)</h4>
+            <h4>(Gift & Jewelry Store)</h4>
 
             <ul>
               <li>
