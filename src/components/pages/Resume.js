@@ -11,22 +11,28 @@ export default function Resume() {
     margin: "6rem 0px",
   };
 
-  const orange = {
-    color: "rgb(250, 165, 37)",
-  };
+  //   const orange = {
+  //     color: "rgb(250, 165, 37)",
+  //   };
 
   return (
     <section style={resumeStyle}>
       <div style={resumeContainer}>
-        <header>
-          <p>Blah blah blah my resume blah blah</p>
+        <div className="resume-intro">
+          <p>
+            Full stack web developer with an unquenchable curiosity. Passionate
+            about executing intuitive UX / UI while avoiding layouts that appear
+            boring or conventional. Years of combined experience working within
+            fashion, art, and retail enviornments give me an edge on the
+            customer experience and design trends.
+          </p>
           <a
             href="/resume/amber_zimmerman_webdeveloper_resume_2022_simplified.pdf"
             download
           >
             Download resume as PDF
           </a>
-        </header>
+        </div>
         <div className="education-container">
           <h1>EDUCATION</h1>
           <div className="education-card-container">
@@ -92,7 +98,7 @@ export default function Resume() {
                 matter of weeks.
               </li>
               <li>
-                Organized purchase orders for 10+ vendors quarterly and assist
+                Organized purchase orders for 10+ vendors quarterly and assisted
                 with over 100+ vendors
               </li>
               <li>
