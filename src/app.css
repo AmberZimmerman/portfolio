@@ -149,13 +149,47 @@ a {
   font-size: 18px;
 }
 
+.education-container {
+  padding: 0px;
+  margin: 6rem 0px;
+}
+
+.education-container h1 {
+  text-align: left;
+  margin-bottom: 2rem;
+  color: rgb(230, 165, 37);
+}
+
+.education-card-container {
+  display: flex;
+}
+
+.education-card {
+  flex: 1 0 320px;
+  text-align: left;
+}
+
+.education-card h3 {
+  margin: 0px;
+}
+
 .skills-container {
+  margin-bottom: 6rem;
+}
+
+.skills-container h1 {
+  text-align: left;
+  margin-bottom: 2rem;
+  color: rgb(230, 165, 37);
+}
+
+.skills-card-container {
   display: flex;
 }
 
 .skills-card {
-  flex: 1 0 175px;
-  margin: 10px;
+  flex: 1 0 140px;
+  margin: 0px 1.7rem 0px 0px;
 }
 
 .skills-card p {
@@ -163,20 +197,52 @@ a {
 }
 
 .skills-card:nth-of-type(2n) {
-  flex: 1 0 200px;
+  flex: 1 0 168px;
+}
+
+.experience h1 {
+  text-align: left;
+  margin-bottom: 2rem;
+  color: rgb(230, 165, 37);
 }
 
 .experience-card {
-  background: purple;
-  margin: 20px;
+  /* background: purple; */
+  margin: 0px 0px 6rem 0px;
 }
 
-.experience-card li {
-  font-size: 0.95rem;
+.experience-card h2 {
+  margin: 0px;
+  padding: 0px;
+  text-align: left;
+}
+
+.experience-card h3 {
+  margin: 0px;
+  padding: 0px;
+  color: rgb(230, 165, 37);
+  font-weight: 200;
+}
+
+.experience-card h4 {
+  margin: 0px 2rem 0px 0px;
+  /* color: rgb(230, 165, 37); */
+  color: rgb(88, 148, 153);
+  font-weight: 100;
 }
 
 .experience-card ul {
-  margin: 0px 0px 1.4rem 1.4rem;
+  margin: 1.4rem 0px 1.4rem 1.4rem;
+}
+
+.experience-card li {
+  font-size: 1.1rem;
+  line-height: 1.4rem;
+  margin: 8px 0px;
+}
+
+.soft-skills h1 {
+  color: rgb(230, 165, 37);
 }
 
 /* a red arrow shows up if I don't add the works class? */

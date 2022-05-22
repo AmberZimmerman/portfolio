@@ -8,7 +8,11 @@ export default function Resume() {
 
   const resumeContainer = {
     width: "750px",
-    // background: "red",
+    margin: "6rem 0px",
+  };
+
+  const orange = {
+    color: "rgb(250, 165, 37)",
   };
 
   return (
@@ -18,52 +22,60 @@ export default function Resume() {
           <p>Blah blah blah my resume blah blah</p>
         </header>
         <div className="education-container">
-          <div className="education">
-            <h1>EDUCATION</h1>
-            <h3>2022 Technical Certificate</h3>
-            <p>Full Stack Web Developer Boot Camp</p>
-            <h3>University of Denver</h3>
-            <h3>2014 Bachelor of Arts</h3>
-            <p>Visual Arts and Emerging Media Management</p>
-            <h3>University of Central Florida</h3>
+          <h1>EDUCATION</h1>
+          <div className="education-card-container">
+            <div className="education-card">
+              <p>2022 Technical Certificate</p>
+              <h3>Full Stack Web Developer Boot Camp</h3>
+              <p>University of Denver</p>
+            </div>
+            <div className="education-card">
+              <p>2014 Bachelor of Arts</p>
+              <h3>Visual Arts and Emerging Media Management</h3>
+              <p>University of Central Florida</p>
+            </div>
           </div>
         </div>
+
         <div className="skills-container">
-          <div className="skills-card">
-            <h3>Front-End Code</h3>
-            <p>
-              HTML/CSS / JavaScript / React / MVC - Handlebars / CSS-in-JS /
-              Bootstrap / PWA / Webpack / Node.JS tooling / Materialize /
-              Workbox / JQuery / SEO /
-            </p>
-          </div>
-          <div className="skills-card">
-            <h3>Back-End Code</h3>
-            <p>
-              Javascript / NodeJS / MySQL / Sequelize / JSON / OOP / MongoDB /
-              Mongoose / MERN stack / RESTful web services / APIs / Express /
-              CRUD / GraphQL / Apollo /
-            </p>
-          </div>
-          <div className="skills-card">
-            <h3>Software & Other Tools</h3>
-            <p>
-              Adobe CC / Google Suite / Sketch / Miro / Kanban / Github / Heroku
-              / Insomnia / Postman / Lighthouse / Mongo DB Compass / Lucidchart
-              /
-            </p>
+          <h1>SKILLS & EXPERTISE</h1>
+          <div className="skills-card-container">
+            <div className="skills-card">
+              <h3>Front-End Code</h3>
+              <p>
+                HTML/CSS / JavaScript / React / Handlebars / CSS-in-JS /
+                Bootstrap / PWA / Webpack / Workbox / JQuery / Node.JS tooling /
+                Materialize / JSX /
+              </p>
+            </div>
+            <div className="skills-card">
+              <h3>Back-End Code</h3>
+              <p>
+                Javascript / NodeJS / MySQL / Sequelize / JSON / OOP / MongoDB /
+                Mongoose / MERN stack / RESTful web services / APIs / Express /
+                CRUD / GraphQL / Apollo /
+              </p>
+            </div>
+            <div className="skills-card">
+              <h3>Software & Other Tools</h3>
+              <p>
+                Adobe CC / Google Suite / Sketch / Miro / Kanban / Github /
+                Heroku / Insomnia / Postman / Lighthouse / Mongo DB Compass /
+                Lucidchart /
+              </p>
+            </div>
           </div>
         </div>
         <div className="experience">
+          <h1>WORK HIGHLIGHTS</h1>
           <div className="experience-card">
-            <h1>JUN 2018-PRESENT</h1>
-            <h3>
-              Assistant Merchandising Manager @ Two Hands Paperie Boulder, CO
-            </h3>
+            <h2>JUN 2018-PRESENT</h2>
+            <h3>Assistant Manager @ Two Hands Paperie Boulder, CO</h3>
+            <h4>(Specialty Art Supplies & Art Classes)</h4>
             <ul>
               <li>
                 Spearheaded the stores implementation to a new POS system,
-                Lightspeed by being the main contact for demos, solving IT
+                Lightspeed, by being the main contact for demos, solving IT
                 issues, and subsequently writing the user manual for staff
                 training.
               </li>
@@ -107,8 +119,10 @@ export default function Resume() {
             </ul>
           </div>
           <div className="experience-card">
-            <h1>MAR 2018-APRIL 2019</h1>
-            <h3>Key Holder @ Bliss Boulder, CO</h3>
+            <h2>MAR 2018-APRIL 2019</h2>
+            <h3>Key Holder @ Bliss in Boulder, CO</h3>
+            <h4>(Gift Store)</h4>
+
             <ul>
               <li>
                 Demonstrated an ability to input data according to the stores
@@ -126,8 +140,9 @@ export default function Resume() {
             </ul>
           </div>
           <div className="experience-card">
-            <h1>JAN 2017 - SEP 2017</h1>
-            <h3>Buyer @ Buffalo Exchange Boulder, CO</h3>
+            <h2>JAN 2017 - SEP 2017</h2>
+            <h3>Buyer @ Buffalo Exchange in Boulder, CO</h3>
+            <h4>(Buy Sell Trade Clothing Store)</h4>
             <ul>
               <li>
                 Appraised used clothing on the spot utilizing a learned
@@ -146,8 +161,10 @@ export default function Resume() {
             </ul>
           </div>
           <div className="experience-card">
-            <h1>SEP 2014 - DEC 2016</h1>
-            <h3>Production Shift Lead @ Rifle Paper Co. Winter Park, FL</h3>
+            <h2>SEP 2014 - DEC 2016</h2>
+            <h3>Production Shift Lead @ Rifle Paper Co. in Winter Park, FL</h3>
+            <h4>(Stationery Store)</h4>
+
             <ul>
               <li>
                 For Production: Worked efficiently during timed intervals to
@@ -164,10 +181,13 @@ export default function Resume() {
             </ul>
           </div>
           <div className="experience-card">
-            <h1>APR 2008 - JAN 2013</h1>
+            <h2>APR 2008 - JAN 2013</h2>
             <h3>
-              Hostess/Server/Bartender/Shift Supervisor @ Winghouse Sanford, FL
+              Hostess/Server/Bartender/Shift Supervisor @ Winghouse in Sanford,
+              FL
             </h3>
+            <h4>(Sports Bar & Family Restaurant)</h4>
+
             <ul>
               <li>
                 Obtained social skills that facilitated in forming a loyal
@@ -184,7 +204,7 @@ export default function Resume() {
             </ul>
           </div>
         </div>
-        <div className="soft-skils">
+        <div className="soft-skills">
           <h1>SOFT SKILLS</h1>
           <p>
             Flexibility / Team First Mindset / Attention to detail / Quality
