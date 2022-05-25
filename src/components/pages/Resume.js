@@ -8,7 +8,7 @@ export default function Resume() {
 
   const resumeContainer = {
     width: "750px",
-    margin: "6rem 0px",
+    margin: "3rem 0px",
   };
 
   //   const orange = {
