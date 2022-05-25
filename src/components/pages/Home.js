@@ -4,7 +4,7 @@ import Heroimage from "../Hero-image";
 
 export default function Home({ currentPage, handlePageChange }) {
   return (
-    <section id="home" className="hero">
+    <section className="hero">
       <Lefthero />
       <Heroimage />
     </section>

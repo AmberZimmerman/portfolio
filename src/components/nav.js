@@ -11,10 +11,9 @@ export default function Nav({ currentPage, handlePageChange }) {
   const linkStyle = {
     textDecoration: "none",
     color: "white",
-    padding: "10px",
-    fontWeight: "600",
+    padding: "13px",
     textTransform: "uppercase",
-    backgroundColor: "rgb(5, 51, 53)",
+    // backgroundColor: "rgb(5, 51, 53)",
     height: "100%",
     display: "flex",
     width: "70%",
@@ -58,7 +57,6 @@ export default function Nav({ currentPage, handlePageChange }) {
           </div>
 
           <div
-            className="links"
             style={{
               display: "flex",
               width: "68%",

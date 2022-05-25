@@ -5,7 +5,7 @@ export default function heroImage() {
   const rightHero = {
     background: "rgb(5, 51, 53)",
     flex: "1 0 68%",
-    height: "auto",
+    height: "fit-content",
     flexFlow: "column",
     display: "flex",
     overflow: "hidden",

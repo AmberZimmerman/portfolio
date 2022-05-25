@@ -22,7 +22,7 @@
 .hero {
   display: flex;
   position: relative;
-  height: 95vh;
+  height: fit-content;
 }
 
 /* .left-hero {
@@ -405,7 +405,8 @@ a {
   text-decoration: none;
   color: white;
   padding: 7px;
-  font-weight: 600;
+  font-weight: 400;
+  letter-spacing: 0.04em;
 }
 
 /* This is for desktop viewing */
