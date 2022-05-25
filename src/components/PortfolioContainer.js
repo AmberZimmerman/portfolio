@@ -35,7 +35,7 @@ export default function PortfolioContainer() {
   };
 
   return (
-    <section>
+    <section style={{ backgroundColor: "black" }}>
       <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
       {renderPage()}
       <Footer />

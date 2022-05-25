@@ -1,7 +1,7 @@
 .works-grid {
   display: grid;
-  grid-template-columns: 1fr 20px 1fr 20px 1fr;
-  grid-template-rows: repeat(5, 1fr 20px);
+  grid-template-columns: 1fr 2rem 1fr 2rem 1fr;
+  grid-template-rows: repeat(5, 1fr 3rem);
   grid-template-areas:
     "card1 . card2 . card3"
     ". . . . ."
@@ -77,6 +77,28 @@
 
 .works-image {
   width: 375px;
-  height: 260px;
-  border-radius: 8%;
+  height: 220px;
+  border-radius: 4%;
+  border-color: white;
+  border: solid;
+}
+
+h4 {
+  margin: 0.5rem 0 1rem 0;
+}
+
+.button-container {
+  margin: 0.5rem 0px;
+  display: flex;
+  justify-content: space-around;
+}
+
+button {
+  background-color: black;
+  border-color: white;
+  color: white;
+  border-radius: 40px;
+  height: 30px;
+  width: 165px;
+  margin: 0px 0.3rem;
 }

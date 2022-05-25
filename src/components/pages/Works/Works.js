@@ -23,33 +23,37 @@ export default function Works({ projects }) {
   };
 
   return (
-    // <section style={{ height: "800px", display: "flex" }}>
-    //   <div style={leftWorks}>
-    //     <h1>Hiiiiiiiiii</h1>
-    //   </div>
-    //   <div style={rightWorks}>
-    //     <div style={worksGrid}>
-    //       <div
-    //     </div>
-    //   </div>
-    // </section>
     <div style={worksStyle}>
-      <section className="container">
-        <aside>
-          <h2>THESE ARE ALL MY PROJECTS!</h2>
-          <p>blah blah blah here are my projects</p>
-        </aside>
-      </section>
-
       <div className="works-grid">
         {projects.map((project) => (
           <div className="card" key={project.title}>
+            <h4>{`${project.title}`}</h4>
             <img
               className="works-image"
               src={project.image}
               alt="project screenshot"
             />
-            <h4>{`${project.title}`}</h4>
+
+            <div className="button-container">
+              <button
+                type="button"
+                onClick={(e) => {
+                  e.preventDefault();
+                  window.location.href = `${project.github}`;
+                }}
+              >
+                Github
+              </button>
+              <button
+                type="button"
+                onClick={(e) => {
+                  e.preventDefault();
+                  window.location.href = `${project.demo}`;
+                }}
+              >
+                {`${project.demotype}`}
+              </button>
+            </div>
             <p>{`${project.technology}`}</p>
           </div>
         ))}
