@@ -37,10 +37,18 @@ export default function Footer({ currentPage, handlePageChange }) {
   return (
     <div style={footerStyle}>
       <div style={footerLinkStyle}>
-        <i className="fa-brands fa-github fa-2x"></i>
-        <i className="fa-brands fa-linkedin-in fa-2x"></i>
-        <i className="fa-solid fa-paper-plane fa-2x"></i>
-        <i className="fa-solid fa-mobile-screen-button fa-2x"></i>
+        <a href="https://github.com/AmberZimmerman">
+          <i className="fa-brands fa-github"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/amberz-designs/">
+          <i className="fa-brands fa-linkedin-in"></i>
+        </a>
+        <a href="https://github.com/AmberZimmerman">
+          <i className="fa-solid fa-paper-plane"></i>
+        </a>
+        <a href="https://github.com/AmberZimmerman">
+          <i className="fa-solid fa-mobile-screen-button"></i>
+        </a>
       </div>
       <div style={footerName}>
         <p style={{ alignSelf: "center" }}>

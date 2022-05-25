@@ -25,6 +25,11 @@
   height: fit-content;
 }
 
+i {
+  margin: 0px 1rem 0px 1rem;
+  font-size: 1.8em;
+}
+
 /* .left-hero {
   background-color: black;
   flex: 1 0 30%;

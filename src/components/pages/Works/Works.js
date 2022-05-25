@@ -1,4 +1,5 @@
 import React from "react";
+import "./Works.css";
 
 export default function Works({ projects }) {
   // const leftWorks = {
@@ -16,6 +17,11 @@ export default function Works({ projects }) {
   //   gridTemplateColumns: "10px 33% 10px 33% 10px 33% 10px",
   // };
 
+  const worksStyle = {
+    backgroundColor: "black",
+    color: "white",
+  };
+
   return (
     // <section style={{ height: "800px", display: "flex" }}>
     //   <div style={leftWorks}>
@@ -27,20 +33,24 @@ export default function Works({ projects }) {
     //     </div>
     //   </div>
     // </section>
-    <div>
+    <div style={worksStyle}>
       <section className="container">
         <aside>
           <h2>THESE ARE ALL MY PROJECTS!</h2>
           <p>blah blah blah here are my projects</p>
         </aside>
-        <div className="card"></div>
       </section>
 
-      <div>
+      <div className="works-grid">
         {projects.map((project) => (
           <div className="card" key={project.title}>
-            <img src={project.image} alt="project screenshot" />
-            {`${project.title} ${project.description} ${project.technology}`}
+            <img
+              className="works-image"
+              src={project.image}
+              alt="project screenshot"
+            />
+            <h4>{`${project.title}`}</h4>
+            <p>{`${project.technology}`}</p>
           </div>
         ))}
       </div>
