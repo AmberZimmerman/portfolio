@@ -37,7 +37,7 @@ const projects = [
     videolink: "",
   },
   {
-    title: "On Second Thought",
+    title: "On Second Thought (Backend Only)",
     description: "",
     technology:
       "JS / ES6 / HTML5 / CSS3 / Express / Node.js / API / MongoDB / Mongoose / MongoDB Compass / Insomnia",

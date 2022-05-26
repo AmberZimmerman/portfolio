@@ -1,6 +1,44 @@
+.about-style {
+  font-size: 1.1rem;
+  color: white;
+  margin: 0 0 5rem 0;
+}
+
+.about-page {
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+.about-container {
+  width: 400px;
+  margin: 3.5rem 0px;
+}
+
+.list-style {
+  width: 250px;
+}
+
 .about-container {
   padding: 0;
   margin: 0;
   background-color: black;
   height: 100vh;
+  grid-area: ac;
+}
+
+.about-grid {
+  display: grid;
+  grid-template-columns: 1fr 2rem 1fr;
+  grid-template-rows: 1fr 2rem 1fr;
+  grid-template-areas:
+    "ac . stuff"
+    ". . stuff"
+    ". . stuff";
+}
+
+.stuff-container {
+  /* display: flex;
+  justify-content: space-between; */
+  grid-area: stuff;
 }
