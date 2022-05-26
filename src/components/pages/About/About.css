@@ -1,44 +1,70 @@
-.about-style {
-  font-size: 1.1rem;
-  color: white;
-  margin: 0 0 5rem 0;
-}
-
 .about-page {
   display: flex;
   justify-content: center;
   color: white;
+  /* height: 100vh; */
+}
+.about-grid {
+  display: grid;
+  grid-template-columns: 500px 6rem 1fr;
+  grid-template-rows: 100px 1fr 1fr;
+  grid-template-areas:
+    "intro intro intro"
+    "ac . stuff"
+    "joy . stuff";
+  margin: 1rem 0;
 }
 
-.about-container {
-  width: 400px;
-  margin: 3.5rem 0px;
+.intro-container {
+  grid-area: intro;
+  display: flex;
+  justify-content: center;
+  height: 200px;
 }
 
-.list-style {
-  width: 250px;
+p {
+  font-size: 1.1rem;
+  color: white;
+  margin: 0 0 3rem 0;
 }
 
 .about-container {
   padding: 0;
-  margin: 0;
+  margin: 0 0 3rem 0;
   background-color: black;
-  height: 100vh;
+  width: 520px;
   grid-area: ac;
 }
 
-.about-grid {
-  display: grid;
-  grid-template-columns: 1fr 2rem 1fr;
-  grid-template-rows: 1fr 2rem 1fr;
-  grid-template-areas:
-    "ac . stuff"
-    ". . stuff"
-    ". . stuff";
+.joy-container {
+  grid-area: joy;
+}
+
+.joy-container li {
+  font-size: 1.1rem;
+  margin: 0.5rem 0;
 }
 
 .stuff-container {
   /* display: flex;
-  justify-content: space-between; */
+  align-content: space-between; */
   grid-area: stuff;
+  width: 290px;
+  background-color: rgb(250, 165, 37);
+}
+
+.stuff-container h3 {
+  /* font-weight: 300; */
+  color: black;
+}
+
+.stuff-container ul {
+  margin: 0 0 1rem 0;
+  list-style: none;
+  padding: 20px;
+}
+
+.stuff-container li {
+  font-size: 1rem;
+  color: black;
 }
