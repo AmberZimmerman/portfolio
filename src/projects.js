@@ -15,7 +15,8 @@ const projects = [
     title: "MOONR8KER",
     description:
       "MOONR8KER is an application that crosses somewhere between astrology and gravitational science. It will formulate an ideal activity for someone to take part in, relative to what phase the moon is in.",
-    technology: "JS / ES6 / HTML5 / CSS3 / Materialize / API /",
+    technology:
+      "JS / ES6 / HTML5 / CSS3 / Materialize / API / Local Storage / Concept & Design /",
     technologyList: ["Javascript", "Express", "API", "Sequelize", "MySQL"],
     image: require("../src/project-screenshots/moonraker-layout-landing-page-1.jpg"),
     demotype: "Live View",

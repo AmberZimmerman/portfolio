@@ -8,30 +8,45 @@ export default function Resume() {
 
   const resumeContainer = {
     width: "750px",
-    margin: "3rem 0px",
+    margin: "3.5rem 0px",
   };
 
-  //   const orange = {
-  //     color: "rgb(250, 165, 37)",
-  //   };
+  const buttonContainer = {
+    display: "flex",
+    width: "100%",
+    justifyContent: "center",
+    margin: "2.5rem 0",
+  };
+
+  const resumeButton = {
+    width: "fit-content",
+    borderRadius: "8px",
+    height: "40px",
+    background: "rgb(230, 165, 37)",
+  };
 
   return (
     <section style={resumeStyle}>
       <div style={resumeContainer}>
         <div className="resume-intro">
-          <p>
-            Full stack web developer with an unquenchable curiosity. Passionate
-            about executing intuitive UX / UI while avoiding layouts that appear
-            boring or conventional. Years of combined experience working within
-            fashion, art, and retail enviornments give me an edge on the
-            customer experience and design trends.
-          </p>
-          <a
-            href="/resume/amber_zimmerman_webdeveloper_resume_2022_simplified.pdf"
-            download
-          >
-            Download resume as PDF
-          </a>
+          <h3>
+            Full stack developer passionate about executing intuitive UX / UI
+            while also avoiding layouts that appear boring or conventional.
+            Years of combined experience working within fashion, art, and retail
+            enviornments give me an edge on consumer psychology and design
+            trends.
+          </h3>
+          <div style={buttonContainer}>
+            <button style={resumeButton}>
+              <a
+                style={{ color: "black", fontWeight: "500" }}
+                href="/resume/amber_zimmerman_webdeveloper_resume_2022_simplified.pdf"
+                download
+              >
+                Download resume as PDF
+              </a>
+            </button>
+          </div>
         </div>
         <div className="education-container">
           <h1>EDUCATION</h1>
@@ -55,25 +70,34 @@ export default function Resume() {
             <div className="skills-card">
               <h3>Front-End Code</h3>
               <p>
-                HTML/CSS / JavaScript / React / Handlebars / CSS-in-JS /
+                HTML5 / CSS3 / JS / ES6 / React / Redux / JSX / CSS-in-JS / CSS
+                Frameworks / Flexbox / CSS Grid / MVC / PWA / Responsive Design
+                / Local Storage / Indexed DB /
+                {/* HTML/CSS / JavaScript / React / Handlebars / CSS-in-JS /
                 Bootstrap / PWA / Webpack / Workbox / JQuery / Node.JS tooling /
-                Materialize / JSX /
+                Materialize / JSX / */}
               </p>
             </div>
             <div className="skills-card">
               <h3>Back-End Code</h3>
               <p>
-                Javascript / NodeJS / MySQL / Sequelize / JSON / OOP / MongoDB /
+                Javascript / NodeJS / Express / MySQL / Sequelize / CRUD /
+                GraphQL / APIs / MongoDB / Mongoose / MERN stack / RESTful web
+                services / JSON / OOP / Apollo / Stripe / CMS /
+                {/* Javascript / NodeJS / MySQL / Sequelize / JSON / OOP / MongoDB /
                 Mongoose / MERN stack / RESTful web services / APIs / Express /
-                CRUD / GraphQL / Apollo /
+                CRUD / GraphQL / Apollo / */}
               </p>
             </div>
             <div className="skills-card">
               <h3>Software & Other Tools</h3>
               <p>
-                Adobe CC / Google Suite / Sketch / Miro / Kanban / Github /
+                Adobe CC / Google Suite / Sketch / Miro / Lucidchart / Kanban /
+                Git / Github / Heroku / Insomnia / Lighthouse / Mongo DB Compass
+                / Webpack / Workbox / VS code /
+                {/* Adobe CC / Google Suite / Sketch / Miro / Kanban / Github /
                 Heroku / Insomnia / Postman / Lighthouse / Mongo DB Compass /
-                Lucidchart /
+                Lucidchart / */}
               </p>
             </div>
           </div>
@@ -92,30 +116,31 @@ export default function Resume() {
                 training.
               </li>
               <li>
-                Customized the POS with special functions for our specific
-                store, and importing/converting existing inventory data thus
+                Imported/converted existing inventory data, as well as
+                customizing the POS with store specific functions, thus
                 resulting in a fully functional B2C sales experience within a
                 matter of weeks.
               </li>
               <li>
-                Organized purchase orders for 10+ vendors quarterly and assisted
-                with over 100+ vendors
+                Organized large B2B purchase orders for 10+ vendors quarterly
+                and assisted with over 100+ vendors.
               </li>
               <li>
-                Generated inventory / sales reports in the POS to target
-                appropriate unit amounts and avoid unnecessary overhead before
-                creating purchase orders.
+                Generated inventory / sales reports from POS database to analyze
+                consumer trends. Used information to target unit amounts and
+                avoid unnecessary overhead when completing purchase orders.
               </li>
               <li>
-                Lead merchandising changes, including store promotional
-                materials, for seasonal changes / events.
+                Lead merchandising changes during seasonal transitions / events.
+                Included the physical arrangement of items as well as the
+                creation of in store promotional materials.
               </li>
               <li>
-                Orchestrated a store sales event for instore and online.
-                Highlights include new product research, ordering product,
-                directing the production of marketing materials and educating
-                staff. The outcome was a 100% revenue increase for both web and
-                store sales during the event day.
+                Proposed and executed a sales event that ran both in-store and
+                online. Highlights included new product research, ordering
+                product, overseeing marketing materials and educating staff.
+                Outcome was a 100% revenue increase for both web and store sales
+                during the event day.
               </li>
               <li>
                 Implemented new training strategy that focused on employee
@@ -124,9 +149,10 @@ export default function Resume() {
                 over time.
               </li>
               <li>
-                Communicated effectively to maintain store relationships whether
-                it be large vendors, sales reps, small local vendors, teachers
-                for store held classes, online customers and in store customers.
+                Communicated effectively to strengthen store relationships
+                between corporate vendors, sales reps, small local vendors,
+                teachers for store held classes, online customers and in store
+                customers.
               </li>
             </ul>
           </div>
@@ -192,7 +218,7 @@ export default function Resume() {
               </li>
             </ul>
           </div>
-          <div className="experience-card">
+          {/* <div className="experience-card">
             <h2>APR 2008 - JAN 2013</h2>
             <h3>
               Hostess/Server/Bartender/Shift Supervisor @ Winghouse in Sanford,
@@ -214,7 +240,7 @@ export default function Resume() {
                 total staff of at least 50.
               </li>
             </ul>
-          </div>
+          </div> */}
         </div>
         <div className="soft-skills">
           <h1>SOFT SKILLS</h1>

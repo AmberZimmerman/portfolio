@@ -5,7 +5,7 @@ export default function Footer({ currentPage, handlePageChange }) {
     display: "flex",
     width: "100%",
     bottom: "0",
-    height: "50px",
+    height: "60px",
   };
 
   const footerLinkStyle = {

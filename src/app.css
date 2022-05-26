@@ -155,7 +155,7 @@ a {
 }
 
 .resume-intro {
-  margin: 0px 0px 4rem 0px;
+  margin: 0px 0px 3rem 0px;
   padding: 0px;
 }
 
@@ -166,7 +166,6 @@ a {
 
 .education-container h1 {
   text-align: left;
-  margin-bottom: 2rem;
   color: rgb(230, 165, 37);
 }
 
@@ -189,7 +188,6 @@ a {
 
 .skills-container h1 {
   text-align: left;
-  margin-bottom: 2rem;
   color: rgb(230, 165, 37);
 }
 
@@ -212,7 +210,6 @@ a {
 
 .experience h1 {
   text-align: left;
-  margin-bottom: 2rem;
   color: rgb(230, 165, 37);
 }
 
@@ -235,7 +232,7 @@ a {
 }
 
 .experience-card h4 {
-  margin: 0px 2rem 0px 0px;
+  margin: 0px 1.8rem 0px 0px;
   /* color: rgb(230, 165, 37); */
   color: rgb(88, 148, 153);
   font-weight: 100;

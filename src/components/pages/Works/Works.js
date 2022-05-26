@@ -27,7 +27,6 @@ export default function Works({ projects }) {
       <div className="works-grid">
         {projects.map((project) => (
           <div className="card" key={project.title}>
-            <h4>{`${project.title}`}</h4>
             <img
               className="works-image"
               src={project.image}
@@ -35,7 +34,7 @@ export default function Works({ projects }) {
             />
 
             <div className="button-container">
-              <button
+              {/* <button
                 type="button"
                 onClick={(e) => {
                   e.preventDefault();
@@ -52,8 +51,10 @@ export default function Works({ projects }) {
                 }}
               >
                 {`${project.demotype}`}
-              </button>
+              </button> */}
             </div>
+            <h4>{`${project.title}`}</h4>
+
             <p>{`${project.technology}`}</p>
           </div>
         ))}
