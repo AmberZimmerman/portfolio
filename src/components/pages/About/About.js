@@ -10,15 +10,14 @@ export default function About() {
         <div className="about-container">
           <h3>Why People Hire Me</h3>
           <p>
-            I'm a designer and front end engineer who is driven by an
-            unquenchable curiosity. My background in consumer psychology, B2B
-            trend buying, and emerging media management help guide me in
-            executing creative and visually stunning designs. Strong experience
-            with the integration, training, and use of POS systems. This
-            includes an ability to inform intelligent business strategies by
-            generating reports from the POS database to review patterns in
-            inventory, consumer behavior, and sales. My team first mindset helps
-            accomplish group goals.
+            I'm full stack developer with a passion for well executed UX / UI
+            who is driven by an unquenchable curiosity. My background in
+            consumer psychology, B2B trend buying, and emerging media management
+            help guide me in executing creative and visually stunning designs.
+            Strong experience with the integration, training, and use of POS
+            systems. This includes an ability to inform intelligent business
+            strategies by generating reports from the POS database to review
+            patterns in inventory, consumer behavior, and sales.
           </p>
         </div>
 

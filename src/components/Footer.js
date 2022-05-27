@@ -46,9 +46,9 @@ export default function Footer({ currentPage, handlePageChange }) {
         <a href="https://github.com/AmberZimmerman">
           <i className="fa-solid fa-paper-plane"></i>
         </a>
-        <a href="https://github.com/AmberZimmerman">
+        {/* <a href="https://github.com/AmberZimmerman">
           <i className="fa-solid fa-mobile-screen-button"></i>
-        </a>
+        </a> */}
       </div>
       <div style={footerName}>
         <p style={{ alignSelf: "center" }}>

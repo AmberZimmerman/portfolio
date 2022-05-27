@@ -2,21 +2,6 @@ import React from "react";
 import "./Works.css";
 
 export default function Works({ projects }) {
-  // const leftWorks = {
-  //   width: "32%",
-  //   backgroundColor: "yellow",
-  // };
-
-  // const rightWorks = {
-  //   width: "68%",
-  //   backgroundColor: "red",
-  // };
-
-  // const worksGrid = {
-  //   display: "grid",
-  //   gridTemplateColumns: "10px 33% 10px 33% 10px 33% 10px",
-  // };
-
   const worksStyle = {
     backgroundColor: "black",
     color: "white",
@@ -34,7 +19,7 @@ export default function Works({ projects }) {
             />
 
             <div className="button-container">
-              {/* <button
+              <button
                 type="button"
                 onClick={(e) => {
                   e.preventDefault();
@@ -51,7 +36,7 @@ export default function Works({ projects }) {
                 }}
               >
                 {`${project.demotype}`}
-              </button> */}
+              </button>
             </div>
             <h4>{`${project.title}`}</h4>
 
