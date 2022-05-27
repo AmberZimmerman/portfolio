@@ -1,5 +1,5 @@
 import React from "react";
-import portfolioPhoto from "../images/portfolio-photo.jpg";
+import portfolioPhoto from "../images/former-images/portfolio-photo.jpg";
 
 export default function heroImage() {
   const rightHero = {
