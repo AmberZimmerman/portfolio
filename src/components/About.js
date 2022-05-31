@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function About() {
+export default function About({ currentPage, handlePageChange }) {
   const aboutStyle = {
     backgroundColor: "rgb(5, 51, 53)",
     width: "100vw",
@@ -24,6 +24,16 @@ export default function About() {
         Strong ability to research and identify trends with expertise in product
         buying, merchandising, and consumer psychology.
       </p>
+
+      <button>
+        <a
+          href="#resume"
+          onClick={() => handlePageChange("RESUME")}
+          className={currentPage === "RESUME" ? "nav-link active" : "nav-link"}
+        >
+          VIEW RESUME
+        </a>
+      </button>
     </div>
   );
 }

@@ -9,7 +9,7 @@ export default function Home({ currentPage, handlePageChange }) {
     <section className="hero home-grid">
       <Lefthero />
       <Heroimage />
-      <About />
+      <About currentPage={currentPage} handlePageChange={handlePageChange} />
     </section>
   );
 }
