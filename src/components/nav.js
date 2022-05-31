@@ -76,7 +76,7 @@ export default function Nav({ currentPage, handlePageChange }) {
                   HOME
                 </a>
               </li>
-              <li style={linkStyle}>
+              {/* <li style={linkStyle}>
                 <a
                   href="#about"
                   onClick={() => handlePageChange("ABOUT")}
@@ -86,7 +86,7 @@ export default function Nav({ currentPage, handlePageChange }) {
                 >
                   ABOUT
                 </a>
-              </li>
+              </li> */}
               <li style={linkStyle}>
                 <a
                   href="#works"

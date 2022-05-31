@@ -9,6 +9,7 @@ export default function heroImage() {
     flexFlow: "column",
     display: "flex",
     overflow: "hidden",
+    gridArea: "hero-image",
   };
 
   const photoOfSelf = {

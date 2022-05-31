@@ -4,10 +4,11 @@ export default function leftHero() {
   const leftHeroStyle = {
     backgroundColor: "black",
     flex: "1 0 32%",
+    gridArea: "left-hero",
   };
 
   return (
-    <div className="left-hero" style={leftHeroStyle}>
+    <div style={leftHeroStyle}>
       <div className="overlappy-text">
         <div className="my-name-is">MY NAME IS</div>
         <div className="amber-zimmerman">AMBER ZIMMERMAN</div>

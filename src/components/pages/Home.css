@@ -1,0 +1,9 @@
+.home-grid {
+  display: grid;
+  grid-template-columns: 32% 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas:
+    "left-hero hero-image"
+    "about about";
+  /* margin: 1rem 0; */
+}
