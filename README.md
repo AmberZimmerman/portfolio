@@ -1,13 +1,5 @@
 # My Personal Portfolio - built with react
 
-### License:
-
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
-
-### License Description:
-
-[Click here for the most current description of this license](https://opensource.org/licenses/MIT)
-
 ### Link to deployed project:
 
 https://amberzimmerman.github.io/portfolio/
@@ -17,9 +9,7 @@ https://amberzimmerman.github.io/portfolio/
 - [Description](#description)
 - [Installation](#installation)
 - [Usage Instructions](#usage-instructions)
-- [License](#license)
 - [Contribution Guidelines](#contribution-guidelines)
-- [Tests](#tests)
 - [Questions](#questions)
 - [Screenshots](#screenshot)
 
@@ -34,16 +24,11 @@ In order to install the necessary dependencies, open the console and run the fol
 
 ### Usage Instructions:
 
-usage here
+This is my personal portfolio page.
 
 ### Contribution Guidelines:
 
-How can a user contribute
-
-### Tests:
-
-In order to test open the console and run the following:
-`There are no tests to run for this project`
+No contributions at this time.
 
 ### Questions:
 

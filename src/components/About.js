@@ -22,7 +22,8 @@ export default function About({ currentPage, handlePageChange }) {
         with websites and software platforms by leveraging background in art
         management and years of customer interactions in a retail environment.
         Strong ability to research and identify trends with expertise in product
-        buying, merchandising, and consumer psychology.
+        buying, merchandising, and consumer psychology. Experience with POS
+        integration and training.
       </p>
 
       <button>
