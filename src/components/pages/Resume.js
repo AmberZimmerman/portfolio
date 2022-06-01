@@ -29,12 +29,18 @@ export default function Resume() {
     <section style={resumeStyle}>
       <div style={resumeContainer}>
         <div className="resume-intro">
-          <h3>
+          <h3
+            style={{
+              fontFamily: "Raleway, sans-serif",
+              fontWeight: "500",
+              textAlign: "center",
+            }}
+          >
             Full stack developer passionate about executing intuitive UX / UI
-            while also avoiding layouts that appear boring or conventional.
-            Years of combined experience working within fashion, art, and retail
-            enviornments give me an edge on consumer psychology and design
-            trends.
+            while also avoiding layouts that appear boring or conventional. Able
+            to leverage years of combined experience working within fashion,
+            art, and retail enviornments which gives me an edge on consumer
+            psychology and design trends.
           </h3>
           <div style={buttonContainer}>
             <button style={resumeButton}>

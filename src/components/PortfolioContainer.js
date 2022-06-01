@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import Nav from "./Nav";
-import Home from "./pages/Home";
-import About from "./pages/About/About";
+import Home from "./pages/Home/Home";
 import Works from "./pages/Works/Works";
 import Contact from "./pages/Contact/Contact";
 import Resume from "./pages/Resume";

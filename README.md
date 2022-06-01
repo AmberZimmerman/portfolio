@@ -14,7 +14,7 @@ https://amberzimmerman.github.io/portfolio/
 
 ### Description of the project:
 
-A single page application portfolio. Begins on the home page with a picture of the designer. Nav bar at the top allows a user to visit the About Works Contact and Resume sections. The bottom footer has links to the designers github, linked in, email and phone. The works page shows projects completed by the designer as well as links to the code in the Github Repo or a demo video/live view of the project. Technologies used are listed under each project.
+A single page application portfolio. Begins on the home page with a picture of the designer/developer. Nav bar at the top allows a user to visit the About Works Contact and Resume sections. The bottom footer has links to the designers github, linked in, and email. The works page shows projects completed by the designer as well as links to the code in the Github Repo or a demo video/live view of the project. Technologies used are listed under each project. Visit the contact page to learn how to connect.
 
 ### Usage Instructions:
 
