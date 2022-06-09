@@ -67,10 +67,10 @@ export default function Nav({ currentPage, handlePageChange }) {
             <ul style={{ display: "flex" }}>
               <li style={linkStyle}>
                 <a
-                  href="#home"
-                  onClick={() => handlePageChange("HOME")}
+                  href="#about"
+                  onClick={() => handlePageChange("ABOUT")}
                   className={
-                    currentPage === "HOME" ? "nav-link active" : "nav-link"
+                    currentPage === "ABOUT" ? "nav-link active" : "nav-link"
                   }
                 >
                   HOME
