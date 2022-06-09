@@ -28,6 +28,9 @@ No contributions at this time.
 
 If you have any questions contact me on [GitHub](https://github.com/AmberZimmerman)
 
-### Screenshot:
+### Screenshots:
 
-![My Image](Project screenshot not available for this project)
+![Main](./src/images/site-ss1.png)
+![About](./src/images/site-ss2.png)
+![Works](./src/images/site-ss3.png)
+![Resume](./src/images/site-ss4.png)
