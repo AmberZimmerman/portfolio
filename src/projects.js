@@ -3,7 +3,7 @@ const projects = [
     title: "Close Encounters",
     description: "",
     technology:
-      "JS / ES6 / HTML5 / CSS3 / Bootstrap / Node.js / Express / GraphQL / Mongo DB / Mongoose / Apollo / API / Leaflet / Heroku / Responsive Design /",
+      "JS / ES6 / HTML5 / CSS3 / Bootstrap / Node.js / Express / GraphQL / Mongo DB / Mongoose / Apollo / API / Leaflet / JWT / Heroku / Responsive Design /",
     technologyList: ["Javascript", "Express", "API", "Sequelize", "MySQL"],
     image: require("../src/images/closer-encounters-ss1.png"),
     demotype: "Live View",
