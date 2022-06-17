@@ -46,7 +46,7 @@ export default function Resume() {
             <button style={resumeButton}>
               <a
                 style={{ color: "black", fontWeight: "500" }}
-                href="/resume/amber_zimmerman_webdeveloper_resume_2022_simplified.pdf"
+                href="/resume/amber_zimmerman_webdeveloper_resume_2022_v2.pdf"
                 download
               >
                 Download resume as PDF
