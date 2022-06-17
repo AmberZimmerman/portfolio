@@ -13,6 +13,14 @@ export default function About({ currentPage, handlePageChange }) {
     justifyContent: "center",
   };
 
+  let bioButton = {
+    width: "fit-content",
+    borderRadius: "8px",
+    height: "40px",
+    background: "black",
+    padding: "4px",
+  };
+
   return (
     <div style={aboutStyle}>
       <div style={{ maxWidth: "1000px" }}>
@@ -28,7 +36,7 @@ export default function About({ currentPage, handlePageChange }) {
           with POS integration and training.
         </p>
 
-        <button>
+        <button style={bioButton}>
           <a
             href="#resume"
             onClick={() => handlePageChange("RESUME")}
