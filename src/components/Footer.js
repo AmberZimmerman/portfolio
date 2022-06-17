@@ -40,10 +40,12 @@ export default function Footer({ currentPage, handlePageChange }) {
         <a href="https://github.com/AmberZimmerman">
           <i className="fa-brands fa-github"></i>
         </a>
+
         <a href="https://www.linkedin.com/in/amberz-designs/">
           <i className="fa-brands fa-linkedin-in"></i>
         </a>
-        <a href="https://github.com/AmberZimmerman">
+
+        <a href="mailto:developwithamber@gmail.com">
           <i className="fa-solid fa-paper-plane"></i>
         </a>
         {/* <a href="https://github.com/AmberZimmerman">
