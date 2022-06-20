@@ -36,17 +36,6 @@ export default function Nav({ currentPage, handlePageChange }) {
               </li>
               <li className="link-style">
                 <a
-                  href="#contact"
-                  onClick={() => handlePageChange("CONTACT")}
-                  className={
-                    currentPage === "CONTACT" ? "nav-link active" : "nav-link"
-                  }
-                >
-                  CONTACT
-                </a>
-              </li>
-              <li className="link-style">
-                <a
                   href="#resume"
                   onClick={() => handlePageChange("RESUME")}
                   className={
@@ -54,6 +43,17 @@ export default function Nav({ currentPage, handlePageChange }) {
                   }
                 >
                   RESUME
+                </a>
+              </li>
+              <li className="link-style">
+                <a
+                  href="#contact"
+                  onClick={() => handlePageChange("CONTACT")}
+                  className={
+                    currentPage === "CONTACT" ? "nav-link active" : "nav-link"
+                  }
+                >
+                  CONTACT
                 </a>
               </li>
             </ul>

@@ -41,32 +41,29 @@ export default function Contact() {
   //   setEmail("");
   // };
 
-  const contactStyle = {
-    color: "white",
-    display: "flex",
-    width: "100vw",
-    justifyContent: "center",
-    flexDirection: "column",
-    alignItems: "center",
-    padding: "100px",
-  };
-
   return (
     <div className="contact-page">
       {/* <section>
         <h2>Lets Make Something Beautiful!</h2>
       </section> */}
 
-      <div style={contactStyle}>
-        <h2 style={{ color: "white" }}>Lets Make Something Beautiful!</h2>
-        <p>Email: developwithamber@gmail.com</p>
+      <div className="contact-style">
+        <div className="contact-header-container">
+          <h2 className="beautiful-text">lets make something beautiful!</h2>
+        </div>
         <p>
-          Github:<a href="https://github.com/AmberZimmerman">AmberZimmerman</a>
+          Email:
+          <a href="mailto:developwithamber@gmail.com">
+            developwithamber@gmail.com
+          </a>
+        </p>
+        <p>
+          Github:<a href="https://github.com/AmberZimmerman"> AmberZimmerman</a>
         </p>
         <p>
           LinkedIn:
           <a href="https://www.linkedin.com/in/amberz-designs/">
-            amberz-designs
+            developwithamber
           </a>{" "}
         </p>
       </div>
