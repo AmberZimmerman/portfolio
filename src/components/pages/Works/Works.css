@@ -82,6 +82,10 @@
     margin: 4rem 0px;
     min-width: 380px;
   }
+
+  .card {
+    padding: 30px 0px;
+  }
 }
 
 .card:nth-of-type(1) {
