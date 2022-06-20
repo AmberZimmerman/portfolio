@@ -1,29 +1,40 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.cadbeaa0.css",
-    "main.js": "/portfolio/static/js/main.b5132026.js",
+    "main.css": "/portfolio/static/css/main.4d88ffed.css",
+    "main.js": "/portfolio/static/js/main.a16d110a.js",
+    "static/media/accretion-6.svg": "/portfolio/static/media/accretion-6.e0e07f31ab57db138f286dbe8825a901.svg",
     "static/media/portfolio-photo.jpg": "/portfolio/static/media/portfolio-photo.aac98eddc36721aa584e.jpg",
     "static/media/rugby-website-wireframe.jpg": "/portfolio/static/media/rugby-website-wireframe.3e0d63e4bc2234f2599d.jpg",
+    "static/media/accretion-1.svg": "/portfolio/static/media/accretion-1.06464894826fce9991270cf577b7404b.svg",
+    "static/media/accretion.svg": "/portfolio/static/media/accretion.a5b96aacfe00947857f6cd10d28c6bf9.svg",
     "static/media/accretion2.png": "/portfolio/static/media/accretion2.334a7ad68c61b46df5ed.png",
     "static/media/fussy-flamingos-ss1.png": "/portfolio/static/media/fussy-flamingos-ss1.5819dc2b9b4b2a446fe8.png",
+    "static/media/accretion-9.svg": "/portfolio/static/media/accretion-9.fbccde2d5adc67c26d0c00c9050938aa.svg",
     "static/media/ecommerce-everything-pencils.gif": "/portfolio/static/media/ecommerce-everything-pencils.67115a9403ce6d7c9330.gif",
+    "static/media/accretion-10.svg": "/portfolio/static/media/accretion-10.34b5d09ca6843ec27cbaeb6bd5da4fa7.svg",
+    "static/media/accretion-5.svg": "/portfolio/static/media/accretion-5.0074bf1579145685d89bb5f90e1cdcb6.svg",
     "static/media/on-second-thought.gif": "/portfolio/static/media/on-second-thought.3ef9995cccba0c5bcece.gif",
+    "static/media/accretion-8.svg": "/portfolio/static/media/accretion-8.f0d866db279801508c1c55739b4b4c26.svg",
+    "static/media/accretion-7.svg": "/portfolio/static/media/accretion-7.0aa8a7b7e2f08716f6dbe118d9a235ac.svg",
     "static/media/dolly-work-day-planner-ss4.png": "/portfolio/static/media/dolly-work-day-planner-ss4.63736570d163f47e722f.png",
     "static/media/moonraker-layout-landing-page-1.jpg": "/portfolio/static/media/moonraker-layout-landing-page-1.ad429946982cba5d0594.jpg",
     "static/media/stacking-your-squad.gif": "/portfolio/static/media/stacking-your-squad.bc70c541e732ac324dcf.gif",
     "static/media/categorizing-your-clique.gif": "/portfolio/static/media/categorizing-your-clique.bdc983d5b0fe38818c3f.gif",
     "static/media/jate-installed-desktop-ss1.png": "/portfolio/static/media/jate-installed-desktop-ss1.9e6ea48b2acbdf40f70b.png",
     "static/media/closer-encounters-ss1.png": "/portfolio/static/media/closer-encounters-ss1.a4da9b75db49dd27aac8.png",
+    "static/media/accretion-2.svg": "/portfolio/static/media/accretion-2.a0c9643ef3441e669d164c2495f72072.svg",
     "static/media/regex-tutorial-ss1.png": "/portfolio/static/media/regex-tutorial-ss1.4a29935502b9cf633cdc.png",
     "static/media/personal-readme-maker-ss1.png": "/portfolio/static/media/personal-readme-maker-ss1.8906d36923ae5643a3bb.png",
+    "static/media/accretion-3.svg": "/portfolio/static/media/accretion-3.1ff44de0db7a902747d81b01882e0af7.svg",
     "static/media/never-miss-a-note-ss1.png": "/portfolio/static/media/never-miss-a-note-ss1.47e20be7abca80c5c922.png",
+    "static/media/accretion-4.svg": "/portfolio/static/media/accretion-4.21c8018fc0414eccbeaae0c29cceb9ac.svg",
     "static/media/generated-password-ss1.png": "/portfolio/static/media/generated-password-ss1.f871057498ce8605af57.png",
     "index.html": "/portfolio/index.html",
-    "main.cadbeaa0.css.map": "/portfolio/static/css/main.cadbeaa0.css.map",
-    "main.b5132026.js.map": "/portfolio/static/js/main.b5132026.js.map"
+    "main.4d88ffed.css.map": "/portfolio/static/css/main.4d88ffed.css.map",
+    "main.a16d110a.js.map": "/portfolio/static/js/main.a16d110a.js.map"
   },
   "entrypoints": [
-    "static/css/main.cadbeaa0.css",
-    "static/js/main.b5132026.js"
+    "static/css/main.4d88ffed.css",
+    "static/js/main.a16d110a.js"
   ]
 }
