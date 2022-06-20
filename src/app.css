@@ -103,6 +103,7 @@ a {
 
 .education-card-container {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .education-card {
@@ -125,6 +126,7 @@ a {
 
 .skills-card-container {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .skills-card {

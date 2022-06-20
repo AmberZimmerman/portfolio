@@ -8,7 +8,7 @@ export default function Resume() {
 
   const resumeContainer = {
     width: "750px",
-    margin: "3.5rem 0px",
+    margin: "3.5rem 6px",
   };
 
   const buttonContainer = {
