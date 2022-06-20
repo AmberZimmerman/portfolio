@@ -254,3 +254,40 @@ a {
   height: auto;
   width: 100%;
 }
+
+@media screen and (max-width: 538px) and (min-width: 0px) {
+  .skills-card {
+    flex: 1 0 140px;
+    margin: 0px 1.7rem 0px 0px;
+    padding: 10px 0px;
+  }
+}
+
+@media screen and (max-width: 700px) and (min-width: 0px) {
+  .education-container h1 {
+    text-align: center;
+    color: rgb(230, 165, 37);
+  }
+
+  .education-card {
+    flex: 1 0 320px;
+    text-align: center;
+    padding-top: 20px;
+  }
+
+  .education-card p {
+    margin: 0;
+  }
+
+  .skills-card {
+    padding: 10px 0px;
+  }
+
+  .skills-card:nth-of-type(1n) {
+    flex: 1 0 300px;
+  }
+
+  .skills-card:nth-of-type(2n) {
+    flex: 1 0 300px;
+  }
+}

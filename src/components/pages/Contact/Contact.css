@@ -13,7 +13,6 @@
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  padding: 100px;
   background-color: rgba(5, 51, 53, 0.6);
   height: 50vh;
 }
@@ -23,6 +22,7 @@
   padding: 40px;
   display: flex;
   align-items: center;
+  width: fit-content;
 }
 
 .beautiful-text {
@@ -38,4 +38,67 @@
 .contact-style p {
   font-size: 26px;
   line-height: 12px;
+}
+
+@media screen and (max-width: 879px) and (min-width: 647px) {
+  .beautiful-text {
+    color: black;
+    font-family: "Raleway", sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    background-color: rgb(250, 165, 37);
+    margin: 12px 12px;
+    font-size: 16px;
+  }
+
+  .contact-style p {
+    font-size: 18px;
+    line-height: 12px;
+  }
+
+  .contact-style a {
+    font-size: 18px;
+    line-height: 12px;
+  }
+}
+
+@media screen and (max-width: 646px) and (min-width: 0px) {
+  .contact-style {
+    color: white;
+    display: flex;
+    width: 75vw;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(5, 51, 53, 0.6);
+    height: 30vh;
+  }
+
+  .contact-header-container {
+    height: 50px;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    width: fit-content;
+  }
+
+  .beautiful-text {
+    color: black;
+    font-family: "Raleway", sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    background-color: rgb(250, 165, 37);
+    margin: 12px 12px;
+    font-size: 14px;
+  }
+
+  .contact-style p {
+    font-size: 14px;
+    line-height: 12px;
+  }
+
+  .contact-style a {
+    font-size: 14px;
+    line-height: 12px;
+  }
 }
