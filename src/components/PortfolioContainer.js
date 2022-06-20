@@ -4,6 +4,7 @@ import About from "./pages/About/About";
 import Works from "./pages/Works/Works";
 import Contact from "./pages/Contact/Contact";
 import Resume from "./pages/Resume";
+import Present from "./pages/Present/Present";
 import projects from "../projects";
 import Footer from "./Footer";
 
@@ -24,6 +25,9 @@ export default function PortfolioContainer() {
     }
     if (currentPage === "RESUME") {
       return <Resume />;
+    }
+    if (currentPage === "PRESENT") {
+      return <Present />;
     }
     return;
   };

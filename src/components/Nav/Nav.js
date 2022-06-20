@@ -23,6 +23,7 @@ export default function Nav({ currentPage, handlePageChange }) {
                   ABOUT
                 </a>
               </li>
+
               <li className="link-style">
                 <a
                   href="#works"
@@ -32,6 +33,17 @@ export default function Nav({ currentPage, handlePageChange }) {
                   }
                 >
                   WORKS
+                </a>
+              </li>
+              <li className="link-style">
+                <a
+                  href="#present"
+                  onClick={() => handlePageChange("PRESENT")}
+                  className={
+                    currentPage === "PRESENT" ? "nav-link active" : "nav-link"
+                  }
+                >
+                  PRESENT
                 </a>
               </li>
               <li className="link-style">

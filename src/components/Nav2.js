@@ -78,13 +78,13 @@ export default function Nav2({ currentPage, handlePageChange }) {
               </li>
               {/* <li style={linkStyle}>
                 <a
-                  href="#about"
-                  onClick={() => handlePageChange("ABOUT")}
+                  href="#present"
+                  onClick={() => handlePageChange("PRESENT")}
                   className={
-                    currentPage === "ABOUT" ? "nav-link active" : "nav-link"
+                    currentPage === "PRESENT" ? "nav-link active" : "nav-link"
                   }
                 >
-                  ABOUT
+                  PRESENT
                 </a>
               </li> */}
               <li style={linkStyle}>
