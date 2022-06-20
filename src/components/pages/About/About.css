@@ -7,3 +7,16 @@
     "about about";
   /* margin: 1rem 0; */
 }
+
+@media screen and (max-width: 480px) and (min-width: 320px) {
+  .home-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr fit-content fit-content;
+    grid-template-areas:
+      "left-hero"
+      "hero-image"
+      "about";
+    /* margin: 1rem 0; */
+  }
+}

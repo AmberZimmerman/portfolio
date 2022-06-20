@@ -1,4 +1,5 @@
 import React from "react";
+import "./Left-hero.css";
 
 export default function leftHero() {
   const leftHeroStyle = {
@@ -8,7 +9,7 @@ export default function leftHero() {
   };
 
   return (
-    <div style={leftHeroStyle}>
+    <div className="left-hero-style">
       <div className="overlappy-text">
         <div className="my-name-is">MY NAME IS</div>
         <div className="amber-zimmerman">AMBER ZIMMERMAN</div>

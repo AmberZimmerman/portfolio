@@ -1,7 +1,7 @@
 import React from "react";
-import Lefthero from "../../Left-hero";
+import Lefthero from "../../Left-hero/Left-hero";
 import Heroimage from "../../Hero-image";
-import Bio from "../../Bio";
+import Bio from "../Bio/Bio";
 import "./About.css";
 
 export default function Home({ currentPage, handlePageChange }) {

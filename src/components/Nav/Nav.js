@@ -1,27 +1,10 @@
 import React from "react";
+import "./Nav.css";
 
 export default function Nav({ currentPage, handlePageChange }) {
-  const navStyle = {
-    display: "flex",
-    width: "100%",
-    position: "fixed",
-    zIndex: "9",
-  };
-
-  const linkStyle = {
-    textDecoration: "none",
-    color: "white",
-    padding: "13px",
-    textTransform: "uppercase",
-    // backgroundColor: "rgb(5, 51, 53)",
-    height: "100%",
-    display: "flex",
-    width: "70%",
-  };
-
   return (
     <div style={{ flexWrap: "wrap", height: "50px" }}>
-      <nav style={navStyle}>
+      <nav className="nav-style">
         <section
           style={{
             textAlign: "center",
@@ -65,7 +48,7 @@ export default function Nav({ currentPage, handlePageChange }) {
             }}
           >
             <ul style={{ display: "flex" }}>
-              <li style={linkStyle}>
+              <li className="link-style">
                 <a
                   href="#about"
                   onClick={() => handlePageChange("ABOUT")}
@@ -76,7 +59,7 @@ export default function Nav({ currentPage, handlePageChange }) {
                   HOME
                 </a>
               </li>
-              {/* <li style={linkStyle}>
+              {/* <li className="link-style">
                 <a
                   href="#about"
                   onClick={() => handlePageChange("ABOUT")}
@@ -87,7 +70,7 @@ export default function Nav({ currentPage, handlePageChange }) {
                   ABOUT
                 </a>
               </li> */}
-              <li style={linkStyle}>
+              <li className="link-style">
                 <a
                   href="#works"
                   onClick={() => handlePageChange("WORKS")}
@@ -98,7 +81,7 @@ export default function Nav({ currentPage, handlePageChange }) {
                   WORKS
                 </a>
               </li>
-              <li style={linkStyle}>
+              <li className="link-style">
                 <a
                   href="#contact"
                   onClick={() => handlePageChange("CONTACT")}
@@ -109,7 +92,7 @@ export default function Nav({ currentPage, handlePageChange }) {
                   CONTACT
                 </a>
               </li>
-              <li style={linkStyle}>
+              <li className="link-style">
                 <a
                   href="#resume"
                   onClick={() => handlePageChange("RESUME")}
