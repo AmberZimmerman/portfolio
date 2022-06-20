@@ -48,7 +48,7 @@
   .works-grid {
     display: grid;
     grid-template-columns: 375px;
-    grid-template-rows: repeat(15, 1fr 3rem);
+    grid-template-rows: repeat(15, 1fr 60px);
     grid-template-areas:
       "card1"
       "."
