@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.25826208.css",
+    "main.css": "/portfolio/static/css/main.cadbeaa0.css",
     "main.js": "/portfolio/static/js/main.b5132026.js",
     "static/media/portfolio-photo.jpg": "/portfolio/static/media/portfolio-photo.aac98eddc36721aa584e.jpg",
     "static/media/rugby-website-wireframe.jpg": "/portfolio/static/media/rugby-website-wireframe.3e0d63e4bc2234f2599d.jpg",
@@ -19,11 +19,11 @@
     "static/media/never-miss-a-note-ss1.png": "/portfolio/static/media/never-miss-a-note-ss1.47e20be7abca80c5c922.png",
     "static/media/generated-password-ss1.png": "/portfolio/static/media/generated-password-ss1.f871057498ce8605af57.png",
     "index.html": "/portfolio/index.html",
-    "main.25826208.css.map": "/portfolio/static/css/main.25826208.css.map",
+    "main.cadbeaa0.css.map": "/portfolio/static/css/main.cadbeaa0.css.map",
     "main.b5132026.js.map": "/portfolio/static/js/main.b5132026.js.map"
   },
   "entrypoints": [
-    "static/css/main.25826208.css",
+    "static/css/main.cadbeaa0.css",
     "static/js/main.b5132026.js"
   ]
 }
