@@ -11,7 +11,7 @@ export default function Works({ projects }) {
 
   return (
     <div style={worksStyle}>
-      <div className="works-flex-container">
+      <div className="works-grid">
         {projects.map((project) => (
           <div className="card" key={project.title}>
             <div className="image-container">

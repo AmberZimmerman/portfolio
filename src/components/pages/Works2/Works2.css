@@ -1,0 +1,202 @@
+@media screen and (max-width: 2000px) and (min-width: 1222px) {
+  .works-grid {
+    display: grid;
+    grid-template-columns: 375px 30px 375px 30px 375px;
+    grid-template-rows: repeat(5, 1fr 3rem);
+    grid-template-areas:
+      "card1 . card2 . card3"
+      ". . . . ."
+      "card4 . card5 . card6"
+      ". . . . ."
+      "card7 . card8 . card9"
+      ". . . . ."
+      "card10 . card11 . card12"
+      ". . . . ."
+      "card13 . card14 . card15";
+    margin: 4rem;
+    /* min-width: 1185px; */
+  }
+}
+
+@media screen and (max-width: 1221px) and (min-width: 801px) {
+  .works-grid {
+    display: grid;
+    grid-template-columns: 375px 30px 375px;
+    grid-template-rows: repeat(8, 1fr 3rem);
+    grid-template-areas:
+      "card1 . card2"
+      ". . ."
+      "card3 . card4"
+      ". . ."
+      "card5 . card6"
+      ". . ."
+      "card7 . card8"
+      ". . ."
+      "card9 . card10"
+      ". . ."
+      "card11 . card12"
+      ". . ."
+      "card13 . card14"
+      ". . ."
+      "card15 . .";
+    margin: 4rem 0px;
+    /* min-width: 380px; */
+  }
+}
+
+@media screen and (max-width: 800px) and (min-width: 400px) {
+  .works-grid {
+    display: grid;
+    grid-template-columns: 375px;
+    grid-template-rows: repeat(15, 1fr 60px);
+    grid-template-areas:
+      "card1"
+      "."
+      "card2"
+      "."
+      "card3"
+      "."
+      "card4"
+      "."
+      "card5"
+      "."
+      "card6"
+      "."
+      "card7"
+      "."
+      "card8"
+      "."
+      "card9"
+      "."
+      "card10"
+      "."
+      "card11"
+      "."
+      "card12"
+      "."
+      "card13"
+      "."
+      "card14"
+      "."
+      "card15";
+    margin: 4rem 0px;
+    min-width: 380px;
+  }
+
+  .card {
+    padding: 30px 0px;
+  }
+}
+
+.card:nth-of-type(1) {
+  grid-area: card1;
+}
+
+.card:nth-of-type(2) {
+  grid-area: card2;
+}
+
+.card:nth-of-type(3) {
+  grid-area: card3;
+}
+
+.card:nth-of-type(4) {
+  grid-area: card4;
+}
+
+.card:nth-of-type(5) {
+  grid-area: card5;
+}
+
+.card:nth-of-type(6) {
+  grid-area: card6;
+}
+
+.card:nth-of-type(7) {
+  grid-area: card7;
+}
+
+.card:nth-of-type(8) {
+  grid-area: card8;
+}
+
+.card:nth-of-type(9) {
+  grid-area: card9;
+}
+
+.card:nth-of-type(10) {
+  grid-area: card10;
+}
+
+.card:nth-of-type(11) {
+  grid-area: card11;
+}
+
+.card:nth-of-type(12) {
+  grid-area: card12;
+}
+
+.card:nth-of-type(13) {
+  grid-area: card13;
+}
+
+.card:nth-of-type(14) {
+  grid-area: card14;
+}
+
+.card:nth-of-type(15) {
+  grid-area: card15;
+}
+
+.image-container {
+  position: relative;
+  width: 375px;
+  height: 220px;
+}
+
+.image-overlay {
+  background-color: rgba(5, 51, 53, 0.7);
+  position: absolute;
+  width: 375px;
+  height: 220px;
+  border-radius: 4%;
+  opacity: 0;
+  transition: 0.1s;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.image-container:hover .image-overlay {
+  opacity: 1;
+}
+
+.works-image {
+  width: 375px;
+  height: 220px;
+  border-radius: 4%;
+  border-color: white;
+  border: solid;
+}
+
+h4 {
+  margin: 0.5rem 0 1rem 0;
+}
+
+.button-container {
+  margin: 0.5rem 0px;
+  display: flex;
+  justify-content: space-around;
+}
+
+button {
+  background-color: black;
+  border-color: white;
+  color: white;
+  border-radius: 40px;
+  height: 30px;
+  width: 165px;
+  margin: 0px 0.3rem;
+  font-family: "Raleway", sans-serif;
+  border: none;
+}
