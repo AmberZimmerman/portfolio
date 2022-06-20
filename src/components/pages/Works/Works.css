@@ -1,19 +1,87 @@
-.works-grid {
-  display: grid;
-  grid-template-columns: 375px 30px 375px 30px 375px;
-  grid-template-rows: repeat(5, 1fr 3rem);
-  grid-template-areas:
-    "card1 . card2 . card3"
-    ". . . . ."
-    "card4 . card5 . card6"
-    ". . . . ."
-    "card7 . card8 . card9"
-    ". . . . ."
-    "card10 . card11 . card12"
-    ". . . . ."
-    "card13 . card14 . card15";
-  margin: 4rem;
-  min-width: 1185px;
+@media screen and (max-width: 2000px) and (min-width: 1222px) {
+  .works-grid {
+    display: grid;
+    grid-template-columns: 375px 30px 375px 30px 375px;
+    grid-template-rows: repeat(5, 1fr 3rem);
+    grid-template-areas:
+      "card1 . card2 . card3"
+      ". . . . ."
+      "card4 . card5 . card6"
+      ". . . . ."
+      "card7 . card8 . card9"
+      ". . . . ."
+      "card10 . card11 . card12"
+      ". . . . ."
+      "card13 . card14 . card15";
+    margin: 4rem;
+    /* min-width: 1185px; */
+  }
+}
+
+@media screen and (max-width: 1221px) and (min-width: 801px) {
+  .works-grid {
+    display: grid;
+    grid-template-columns: 375px 30px 375px;
+    grid-template-rows: repeat(8, 1fr 3rem);
+    grid-template-areas:
+      "card1 . card2"
+      ". . ."
+      "card3 . card4"
+      ". . ."
+      "card5 . card6"
+      ". . ."
+      "card7 . card8"
+      ". . ."
+      "card9 . card10"
+      ". . ."
+      "card11 . card12"
+      ". . ."
+      "card13 . card14"
+      ". . ."
+      "card15 . .";
+    margin: 4rem 0px;
+    /* min-width: 380px; */
+  }
+}
+
+@media screen and (max-width: 800px) and (min-width: 400px) {
+  .works-grid {
+    display: grid;
+    grid-template-columns: 375px;
+    grid-template-rows: repeat(15, 1fr 3rem);
+    grid-template-areas:
+      "card1"
+      "."
+      "card2"
+      "."
+      "card3"
+      "."
+      "card4"
+      "."
+      "card5"
+      "."
+      "card6"
+      "."
+      "card7"
+      "."
+      "card8"
+      "."
+      "card9"
+      "."
+      "card10"
+      "."
+      "card11"
+      "."
+      "card12"
+      "."
+      "card13"
+      "."
+      "card14"
+      "."
+      "card15";
+    margin: 4rem 0px;
+    min-width: 380px;
+  }
 }
 
 .card:nth-of-type(1) {
