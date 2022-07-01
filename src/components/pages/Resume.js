@@ -128,13 +128,19 @@ export default function Resume() {
                 matter of weeks.
               </li>
               <li>
+                Queried inventory / sales reports from the POS database to
+                target appropriate unit amounts, analyze trends, and
+                subsequently avoid unnecessary overhead before creating purchase
+                orders.
+              </li>
+              <li>
                 Organized large B2B purchase orders for 10+ vendors quarterly
                 and assisted with over 100+ vendors.
               </li>
               <li>
-                Generated inventory / sales reports from POS database to analyze
-                consumer trends. Used information to target unit amounts and
-                avoid unnecessary overhead when completing purchase orders.
+                Assisted with ecommerce store by providing phone support to
+                customers, testing out the UI/UX experience, assembling items to
+                be shipped, updating product inventory, and follow up,
               </li>
               <li>
                 Lead merchandising changes during seasonal transitions / events.
