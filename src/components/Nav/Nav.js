@@ -1,5 +1,5 @@
-import React from "react";
-import "./Nav.css";
+import React from 'react';
+import './Nav.css';
 
 export default function Nav({ currentPage, handlePageChange }) {
   return (
@@ -11,13 +11,13 @@ export default function Nav({ currentPage, handlePageChange }) {
           </div>
 
           <div className="right-nav">
-            <ul style={{ display: "flex" }}>
+            <ul style={{ display: 'flex' }}>
               <li className="link-style">
                 <a
                   href="#about"
-                  onClick={() => handlePageChange("ABOUT")}
+                  onClick={() => handlePageChange('ABOUT')}
                   className={
-                    currentPage === "ABOUT" ? "nav-link active" : "nav-link"
+                    currentPage === 'HOME' ? 'nav-link active' : 'nav-link'
                   }
                 >
                   ABOUT
@@ -27,9 +27,9 @@ export default function Nav({ currentPage, handlePageChange }) {
               <li className="link-style">
                 <a
                   href="#works"
-                  onClick={() => handlePageChange("WORKS")}
+                  onClick={() => handlePageChange('WORKS')}
                   className={
-                    currentPage === "WORKS" ? "nav-link active" : "nav-link"
+                    currentPage === 'WORKS' ? 'nav-link active' : 'nav-link'
                   }
                 >
                   WORKS
@@ -38,9 +38,9 @@ export default function Nav({ currentPage, handlePageChange }) {
               <li className="link-style">
                 <a
                   href="#present"
-                  onClick={() => handlePageChange("PRESENT")}
+                  onClick={() => handlePageChange('PRESENT')}
                   className={
-                    currentPage === "PRESENT" ? "nav-link active" : "nav-link"
+                    currentPage === 'PRESENT' ? 'nav-link active' : 'nav-link'
                   }
                 >
                   PRESENT
@@ -49,9 +49,9 @@ export default function Nav({ currentPage, handlePageChange }) {
               <li className="link-style">
                 <a
                   href="#resume"
-                  onClick={() => handlePageChange("RESUME")}
+                  onClick={() => handlePageChange('RESUME')}
                   className={
-                    currentPage === "RESUME" ? "nav-link active" : "nav-link"
+                    currentPage === 'RESUME' ? 'nav-link active' : 'nav-link'
                   }
                 >
                   RESUME
@@ -60,9 +60,9 @@ export default function Nav({ currentPage, handlePageChange }) {
               <li className="link-style">
                 <a
                   href="#contact"
-                  onClick={() => handlePageChange("CONTACT")}
+                  onClick={() => handlePageChange('CONTACT')}
                   className={
-                    currentPage === "CONTACT" ? "nav-link active" : "nav-link"
+                    currentPage === 'CONTACT' ? 'nav-link active' : 'nav-link'
                   }
                 >
                   CONTACT
